@@ -1,0 +1,11 @@
+.\obj\synth.o: ..\..\..\..\ThirdParty\libmad\src\synth.c
+.\obj\synth.o: ..\..\..\..\ThirdParty\libmad\inc\mad.h
+.\obj\synth.o: ..\..\..\..\ThirdParty\libmad\inc\decoder.h
+.\obj\synth.o: ..\..\..\..\ThirdParty\libmad\inc\stream.h
+.\obj\synth.o: ..\..\..\..\ThirdParty\libmad\inc\bit.h
+.\obj\synth.o: ..\..\..\..\ThirdParty\libmad\inc\frame.h
+.\obj\synth.o: ..\..\..\..\ThirdParty\libmad\inc\fixed.h
+.\obj\synth.o: ..\..\..\..\ThirdParty\libmad\inc\mad_timer.h
+.\obj\synth.o: ..\..\..\..\ThirdParty\libmad\inc\synth.h
+.\obj\synth.o: ..\..\..\..\ThirdParty\libmad\inc\global.h
+.\obj\synth.o: ..\..\..\..\ThirdParty\libmad\inc\D.dat

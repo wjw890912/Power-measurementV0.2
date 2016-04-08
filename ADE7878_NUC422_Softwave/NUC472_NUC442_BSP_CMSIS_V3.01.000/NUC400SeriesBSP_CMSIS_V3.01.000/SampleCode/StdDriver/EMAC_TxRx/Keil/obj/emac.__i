@@ -1,0 +1,1 @@
+-c --cpu Cortex-M4.fp --li -g -O0 --apcs=interwork --split_sections --asm --interleave -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\Device\Nuvoton\NUC472_442\Include -I..\..\..\..\Library\StdDriver\inc -I "E:\Keil\ARM\INC" -I "E:\Keil\ARM\INC\ARM" -o ".\obj\emac.o" --omf_browse ".\obj\emac.crf" --depend ".\obj\emac.d" "..\..\..\..\Library\StdDriver\src\emac.c"

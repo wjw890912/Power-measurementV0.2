@@ -1,0 +1,13 @@
+.\obj\frame.o: ..\..\..\..\ThirdParty\libmad\src\frame.c
+.\obj\frame.o: ..\..\..\..\ThirdParty\libmad\inc\mad.h
+.\obj\frame.o: ..\..\..\..\ThirdParty\libmad\inc\decoder.h
+.\obj\frame.o: ..\..\..\..\ThirdParty\libmad\inc\stream.h
+.\obj\frame.o: ..\..\..\..\ThirdParty\libmad\inc\bit.h
+.\obj\frame.o: ..\..\..\..\ThirdParty\libmad\inc\frame.h
+.\obj\frame.o: ..\..\..\..\ThirdParty\libmad\inc\fixed.h
+.\obj\frame.o: ..\..\..\..\ThirdParty\libmad\inc\mad_timer.h
+.\obj\frame.o: ..\..\..\..\ThirdParty\libmad\inc\synth.h
+.\obj\frame.o: ..\..\..\..\ThirdParty\libmad\inc\global.h
+.\obj\frame.o: E:\Keil\ARM\RV31\INC\stdlib.h
+.\obj\frame.o: ..\..\..\..\ThirdParty\libmad\inc\layer12.h
+.\obj\frame.o: ..\..\..\..\ThirdParty\libmad\inc\layer3.h

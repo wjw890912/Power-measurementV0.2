@@ -1,0 +1,14 @@
+.\obj\pollq.o: ..\..\..\ThirdParty\FreeRTOS\DEMO\COMMON\Minimal\PollQ.c
+.\obj\pollq.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\pollq.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\FreeRTOS.h
+.\obj\pollq.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\obj\pollq.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\projdefs.h
+.\obj\pollq.o: ..\FreeRTOSConfig.h
+.\obj\pollq.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\pollq.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\portable.h
+.\obj\pollq.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\portable\RVDS\ARM_CM4F\portmacro.h
+.\obj\pollq.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\mpu_wrappers.h
+.\obj\pollq.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\task.h
+.\obj\pollq.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\list.h
+.\obj\pollq.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\queue.h
+.\obj\pollq.o: ..\..\..\ThirdParty\FreeRTOS\DEMO\COMMON\include\PollQ.h

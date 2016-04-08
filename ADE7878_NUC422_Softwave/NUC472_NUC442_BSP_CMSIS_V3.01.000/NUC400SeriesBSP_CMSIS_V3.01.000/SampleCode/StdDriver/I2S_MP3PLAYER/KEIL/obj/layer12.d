@@ -1,0 +1,13 @@
+.\obj\layer12.o: ..\..\..\..\ThirdParty\libmad\src\layer12.c
+.\obj\layer12.o: ..\..\..\..\ThirdParty\libmad\inc\mad.h
+.\obj\layer12.o: ..\..\..\..\ThirdParty\libmad\inc\decoder.h
+.\obj\layer12.o: ..\..\..\..\ThirdParty\libmad\inc\stream.h
+.\obj\layer12.o: ..\..\..\..\ThirdParty\libmad\inc\bit.h
+.\obj\layer12.o: ..\..\..\..\ThirdParty\libmad\inc\frame.h
+.\obj\layer12.o: ..\..\..\..\ThirdParty\libmad\inc\fixed.h
+.\obj\layer12.o: ..\..\..\..\ThirdParty\libmad\inc\mad_timer.h
+.\obj\layer12.o: ..\..\..\..\ThirdParty\libmad\inc\synth.h
+.\obj\layer12.o: ..\..\..\..\ThirdParty\libmad\inc\global.h
+.\obj\layer12.o: ..\..\..\..\ThirdParty\libmad\inc\layer12.h
+.\obj\layer12.o: ..\..\..\..\ThirdParty\libmad\inc\sf_table.dat
+.\obj\layer12.o: ..\..\..\..\ThirdParty\libmad\inc\qc_table.dat

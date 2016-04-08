@@ -1,0 +1,1901 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\obj\ADE7878.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\obj\ADE7878.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 4.1 [Build 481]: Last Updated: Fri Apr 08 17:48:18 2016
+<BR><P>
+<H3>Maximum Stack Usage =        976 bytes + Unknown(Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+main &rArr; TestEEPROM_Filesystem &rArr; EEFS_Open &rArr; EEFS_LibOpen &rArr; EEFS_LibOpenFile &rArr; Read_EEPROM
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[1]">eMBFuncReportSlaveID</a> from mbfuncother.o(i.eMBFuncReportSlaveID) referenced 2 times from mb.o(.data)
+ <LI><a href="#[2]">eMBFuncReadHoldingRegister</a> from mbfuncholding.o(i.eMBFuncReadHoldingRegister) referenced 2 times from mb.o(.data)
+ <LI><a href="#[3]">eMBFuncWriteHoldingRegister</a> from mbfuncholding.o(i.eMBFuncWriteHoldingRegister) referenced 2 times from mb.o(.data)
+ <LI><a href="#[4]">eMBFuncReadWriteMultipleHoldingRegister</a> from mbfuncholding.o(i.eMBFuncReadWriteMultipleHoldingRegister) referenced 2 times from mb.o(.data)
+ <LI><a href="#[5]">eBTFuncReadHoldingRegister</a> from btfunc.o(i.eBTFuncReadHoldingRegister) referenced 2 times from mb.o(.data)
+ <LI><a href="#[6]">Reset_Handler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[7]">NMI_Handler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[8]">HardFault_Handler</a> from retarget.o(.emb_text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[9]">MemManage_Handler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[a]">BusFault_Handler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[b]">UsageFault_Handler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[c]">SVC_Handler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[d]">DebugMon_Handler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[e]">PendSV_Handler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[f]">SysTick_Handler</a> from main.o(i.SysTick_Handler) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[10]">BOD_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[11]">IRC_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[12]">PWRWU_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[13]">SRAMF_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[14]">CLKF_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[15]">Default_Handler</a> from startup_nuc472_442.o(.text) referenced 46 times from startup_nuc472_442.o(RESET)
+ <LI><a href="#[16]">RTC_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[17]">TAMPER_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[18]">EINT0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[19]">EINT1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[1a]">EINT2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[1b]">EINT3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[1c]">EINT4_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[1d]">EINT5_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[1e]">EINT6_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[1f]">EINT7_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[20]">GPA_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[21]">GPB_IRQHandler</a> from ade7878_int.o(i.GPB_IRQHandler) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[49]">QEI1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[22]">GPC_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[23]">GPD_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[24]">GPE_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[25]">GPF_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[26]">GPG_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[27]">GPH_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[28]">GPI_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[29]">TMR0_IRQHandler</a> from porttimer.o(i.TMR0_IRQHandler) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[2a]">TMR1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[2b]">TMR2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[2c]">TMR3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[2d]">PDMA_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[2e]">ADC_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[2f]">WDT_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[30]">WWDT_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[31]">EADC0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[32]">EADC1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[33]">EADC2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[34]">EADC3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[35]">ACMP_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[36]">OPA0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[37]">OPA1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[38]">ICAP0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[39]">ICAP1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[3a]">PWM0CH0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[3b]">PWM0CH1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[3c]">PWM0CH2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[3d]">PWM0CH3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[3e]">PWM0CH4_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[3f]">PWM0CH5_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[40]">PWM0_BRK_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[41]">QEI0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[42]">PWM1CH0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[43]">PWM1CH1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[44]">PWM1CH2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[45]">PWM1CH3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[46]">PWM1CH4_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[47]">PWM1CH5_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[48]">PWM1_BRK_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[4a]">EPWM0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[4b]">EPWM0BRK_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[4c]">EPWM1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[4d]">EPWM1BRK_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[4e]">USBD_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[4f]">USBH_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[50]">USB_OTG_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[51]">EMAC_TX_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[52]">EMAC_RX_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[53]">SPI0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[54]">SPI1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[55]">SPI2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[56]">SPI3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[57]">UART0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[58]">UART1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[59]">UART2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[5a]">UART3_IRQHandler</a> from portserial.o(i.UART3_IRQHandler) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[5b]">UART4_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[5c]">UART5_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[5d]">I2C0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[5e]">I2C1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[5f]">I2C2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[60]">I2C3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[61]">I2C4_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[62]">SC0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[63]">SC1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[64]">SC2_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[65]">SC3_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[66]">SC4_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[67]">SC5_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[68]">CAN0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[69]">CAN1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[6a]">I2S0_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[6b]">I2S1_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[6c]">SD_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[6d]">PS2D_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[6e]">CAP_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[6f]">CRYPTO_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[70]">CRC_IRQHandler</a> from startup_nuc472_442.o(.text) referenced from startup_nuc472_442.o(RESET)
+ <LI><a href="#[71]">main</a> from main.o(i.main) referenced from entry7.o(.ARM.Collect$$$$00000007)
+ <LI><a href="#[72]">Hard_Fault_Handler</a> from retarget.o(i.Hard_Fault_Handler) referenced from retarget.o(.emb_text)
+ <LI><a href="#[73]">SystemInit</a> from system_nuc472_442.o(i.SystemInit) referenced from startup_nuc472_442.o(.text)
+ <LI><a href="#[74]">__main</a> from entry.o(.ARM.Collect$$$$00000000) referenced from startup_nuc472_442.o(.text)
+ <LI><a href="#[75]">fputc</a> from retarget.o(i.fputc) referenced from printfa.o(i.__0printf)
+ <LI><a href="#[76]">_sputc</a> from printfa.o(i._sputc) referenced from printfa.o(i.__0sprintf)
+ <LI><a href="#[77]">eMBRTUStart</a> from mbrtu.o(i.eMBRTUStart) referenced from mb.o(i.eMBInit)
+ <LI><a href="#[78]">eMBRTUStop</a> from mbrtu.o(i.eMBRTUStop) referenced from mb.o(i.eMBInit)
+ <LI><a href="#[79]">eMBRTUSend</a> from mbrtu.o(i.eMBRTUSend) referenced from mb.o(i.eMBInit)
+ <LI><a href="#[7a]">eMBRTUReceive</a> from mbrtu.o(i.eMBRTUReceive) referenced from mb.o(i.eMBInit)
+ <LI><a href="#[7b]">xMBRTUReceiveFSM</a> from mbrtu.o(i.xMBRTUReceiveFSM) referenced from mb.o(i.eMBInit)
+ <LI><a href="#[7c]">xMBRTUTransmitFSM</a> from mbrtu.o(i.xMBRTUTransmitFSM) referenced from mb.o(i.eMBInit)
+ <LI><a href="#[7d]">xMBRTUTimerT35Expired</a> from mbrtu.o(i.xMBRTUTimerT35Expired) referenced from mb.o(i.eMBInit)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[74]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(.text)
+</UL>
+<P><STRONG><a name="[176]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[7e]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[8f]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[177]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7.o(.ARM.Collect$$$$00000007))
+
+<P><STRONG><a name="[8]"></a>HardFault_Handler</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, retarget.o(.emb_text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[6]"></a>Reset_Handler</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[7]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[9]"></a>MemManage_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>BusFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[b]"></a>UsageFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[c]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[e]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[35]"></a>ACMP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[2e]"></a>ADC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>BOD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[68]"></a>CAN0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[69]"></a>CAN1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[6e]"></a>CAP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[14]"></a>CLKF_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[70]"></a>CRC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[6f]"></a>CRYPTO_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[31]"></a>EADC0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[32]"></a>EADC1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[33]"></a>EADC2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[34]"></a>EADC3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[18]"></a>EINT0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[19]"></a>EINT1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[1a]"></a>EINT2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[1b]"></a>EINT3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[1c]"></a>EINT4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[1d]"></a>EINT5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[1e]"></a>EINT6_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[1f]"></a>EINT7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[52]"></a>EMAC_RX_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[51]"></a>EMAC_TX_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[4b]"></a>EPWM0BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[4a]"></a>EPWM0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[4d]"></a>EPWM1BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[4c]"></a>EPWM1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[20]"></a>GPA_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[22]"></a>GPC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[23]"></a>GPD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[24]"></a>GPE_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[25]"></a>GPF_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[26]"></a>GPG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[27]"></a>GPH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[28]"></a>GPI_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[5d]"></a>I2C0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[5e]"></a>I2C1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[5f]"></a>I2C2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[60]"></a>I2C3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[61]"></a>I2C4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[6a]"></a>I2S0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[6b]"></a>I2S1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[38]"></a>ICAP0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[39]"></a>ICAP1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[11]"></a>IRC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[36]"></a>OPA0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[37]"></a>OPA1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[2d]"></a>PDMA_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[6d]"></a>PS2D_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[3a]"></a>PWM0CH0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[3b]"></a>PWM0CH1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[3c]"></a>PWM0CH2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[3d]"></a>PWM0CH3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[3e]"></a>PWM0CH4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[3f]"></a>PWM0CH5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[40]"></a>PWM0_BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[42]"></a>PWM1CH0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[43]"></a>PWM1CH1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[44]"></a>PWM1CH2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[45]"></a>PWM1CH3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[46]"></a>PWM1CH4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[47]"></a>PWM1CH5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[48]"></a>PWM1_BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[12]"></a>PWRWU_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[41]"></a>QEI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[49]"></a>QEI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[16]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[62]"></a>SC0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[63]"></a>SC1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[64]"></a>SC2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[65]"></a>SC3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[66]"></a>SC4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[67]"></a>SC5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[6c]"></a>SD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[53]"></a>SPI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[54]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[55]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[56]"></a>SPI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[13]"></a>SRAMF_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[17]"></a>TAMPER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[2a]"></a>TMR1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[2b]"></a>TMR2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[2c]"></a>TMR3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[57]"></a>UART0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[58]"></a>UART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[59]"></a>UART2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[5b]"></a>UART4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[5c]"></a>UART5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[4e]"></a>USBD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[4f]"></a>USBH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[50]"></a>USB_OTG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[2f]"></a>WDT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[30]"></a>WWDT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[80]"></a>__aeabi_uldivmod</STRONG> (Thumb, 102 bytes, Stack size 40 bytes, uldiv.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+</UL>
+
+<P><STRONG><a name="[81]"></a>__aeabi_llsr</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, llushr.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2ulz
+</UL>
+
+<P><STRONG><a name="[178]"></a>_ll_ushift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llushr.o(.text), UNUSED)
+
+<P><STRONG><a name="[db]"></a>__aeabi_memcpy</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, memcpya.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReportSlaveID
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peBTFrameSendCur
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Write_EEPROM
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Read_EEPROM
+</UL>
+
+<P><STRONG><a name="[e9]"></a>__aeabi_memcpy4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TestEEPROM_Filesystem
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_GetModuleClock
+</UL>
+
+<P><STRONG><a name="[179]"></a>__aeabi_memcpy8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text), UNUSED)
+
+<P><STRONG><a name="[84]"></a>__aeabi_memset</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, memseta.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_memset$wrapper
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+</UL>
+
+<P><STRONG><a name="[17a]"></a>__aeabi_memset4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[17b]"></a>__aeabi_memset8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[83]"></a>__aeabi_memclr</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, memseta.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_SplitPath
+</UL>
+
+<P><STRONG><a name="[b2]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_FreeDevice
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibInitFS
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibFreeFileDescriptor
+</UL>
+
+<P><STRONG><a name="[17c]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[85]"></a>_memset$wrapper</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, memseta.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
+</UL>
+
+<P><STRONG><a name="[ee]"></a>strcat</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, strcat.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TestEEPROM_Filesystem
+</UL>
+
+<P><STRONG><a name="[b6]"></a>strncpy</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, strncpy.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = strncpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TestEEPROM_Filesystem
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_SplitPath
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Mount
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_InitFS
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibCreatFile
+</UL>
+
+<P><STRONG><a name="[b4]"></a>strlen</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, strlen.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_SplitPath
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Mount
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_InitFS
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibIsValidFilename
+</UL>
+
+<P><STRONG><a name="[ed]"></a>strcpy</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, strcpy.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TestEEPROM_Filesystem
+</UL>
+
+<P><STRONG><a name="[b0]"></a>strncmp</STRONG> (Thumb, 30 bytes, Stack size 12 bytes, strncmp.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = strncmp
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_InitFS
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_FindVolume
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_FindDevice
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibFindFile
+</UL>
+
+<P><STRONG><a name="[86]"></a>__aeabi_dadd</STRONG> (Thumb, 318 bytes, Stack size 48 bytes, dadd.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_lasr
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+</UL>
+
+<P><STRONG><a name="[8a]"></a>__aeabi_dsub</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, dadd.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+<BR>[Called By]<UL></UL>
+
+<P><STRONG><a name="[8b]"></a>__aeabi_drsub</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, dadd.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+<BR>[Called By]<UL></UL>
+
+<P><STRONG><a name="[8c]"></a>__aeabi_dmul</STRONG> (Thumb, 226 bytes, Stack size 48 bytes, dmul.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+</UL>
+
+<P><STRONG><a name="[8d]"></a>__aeabi_ddiv</STRONG> (Thumb, 222 bytes, Stack size 32 bytes, ddiv.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+</UL>
+
+<P><STRONG><a name="[d9]"></a>__aeabi_f2d</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, f2d.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[17d]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
+
+<P><STRONG><a name="[fb]"></a>__aeabi_uidivmod</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[82]"></a>__aeabi_llsl</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, llshl.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2ulz
+</UL>
+
+<P><STRONG><a name="[17e]"></a>_ll_shift_l</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llshl.o(.text), UNUSED)
+
+<P><STRONG><a name="[87]"></a>__aeabi_lasr</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, llsshr.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+
+<P><STRONG><a name="[17f]"></a>_ll_sshift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llsshr.o(.text), UNUSED)
+
+<P><STRONG><a name="[180]"></a>__I$use$fp</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, iusefp.o(.text), UNUSED)
+
+<P><STRONG><a name="[89]"></a>_double_round</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, depilogue.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_epilogue
+</UL>
+
+<P><STRONG><a name="[88]"></a>_double_epilogue</STRONG> (Thumb, 168 bytes, Stack size 48 bytes, depilogue.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_double_round
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+</UL>
+
+<P><STRONG><a name="[8e]"></a>__aeabi_d2ulz</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, dfixul.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+</UL>
+
+<P><STRONG><a name="[f8]"></a>__aeabi_cdrcmple</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, cdrcmple.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+</UL>
+
+<P><STRONG><a name="[7f]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[181]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[182]"></a>__decompress</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+
+<P><STRONG><a name="[183]"></a>__decompress1</STRONG> (Thumb, 92 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+
+<P><STRONG><a name="[90]"></a>ADE7878Cfg</STRONG> (Thumb, 790 bytes, Stack size 8 bytes, ade7878.o(i.ADE7878Cfg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = ADE7878Cfg &rArr; SPIWrite4Bytes
+</UL>
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite4Bytes
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite2Bytes
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite1Byte
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+</UL>
+
+<P><STRONG><a name="[94]"></a>ADE7878PSM0</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, ade7878.o(i.ADE7878PSM0))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = ADE7878PSM0 &rArr; GPIO_SetMode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetMode
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+</UL>
+
+<P><STRONG><a name="[97]"></a>ADE7878Reset</STRONG> (Thumb, 90 bytes, Stack size 8 bytes, ade7878.o(i.ADE7878Reset))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = ADE7878Reset &rArr; GPIO_SetMode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetMode
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+</UL>
+
+<P><STRONG><a name="[98]"></a>ADE7878SPICfg</STRONG> (Thumb, 92 bytes, Stack size 8 bytes, ade7878.o(i.ADE7878SPICfg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = ADE7878SPICfg &rArr; SPIWrite1Byte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite1Byte
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+</UL>
+
+<P><STRONG><a name="[9a]"></a>ADE7878_main</STRONG> (Thumb, 82 bytes, Stack size 8 bytes, ad7878_measure.o(i.ADE7878_main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = ADE7878_main &rArr; SPIRead4Bytes
+</UL>
+<BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878SPICfg
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878Reset
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878PSM0
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878Cfg
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite4Bytes
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite2Bytes
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead4Bytes
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[a0]"></a>CLK_EnableModuleClock</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, clk.o(i.CLK_EnableModuleClock))
+<BR><BR>[Called By]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ConfigHWSpiport
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Usart_Init
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[e1]"></a>CLK_EnableXtalRC</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, clk.o(i.CLK_EnableXtalRC))
+<BR><BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+</UL>
+
+<P><STRONG><a name="[9c]"></a>CLK_GetHCLKFreq</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, clk.o(i.CLK_GetHCLKFreq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Open
+</UL>
+
+<P><STRONG><a name="[e7]"></a>CLK_GetPLLClockFreq</STRONG> (Thumb, 96 bytes, Stack size 12 bytes, clk.o(i.CLK_GetPLLClockFreq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = CLK_GetPLLClockFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Open
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+</UL>
+
+<P><STRONG><a name="[9e]"></a>CLK_SetHCLK</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, clk.o(i.CLK_SetHCLK))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = CLK_SetHCLK &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+</UL>
+
+<P><STRONG><a name="[f2]"></a>CLK_SetModuleClock</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, clk.o(i.CLK_SetModuleClock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = CLK_SetModuleClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Usart_Init
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[e2]"></a>CLK_WaitClockReady</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, clk.o(i.CLK_WaitClockReady))
+<BR><BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+</UL>
+
+<P><STRONG><a name="[9f]"></a>ConfigHWSpiport</STRONG> (Thumb, 86 bytes, Stack size 8 bytes, config.o(i.ConfigHWSpiport))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = ConfigHWSpiport &rArr; SPI_Open &rArr; CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Open
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_DisableAutoSS
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetMode
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableModuleClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Config
+</UL>
+
+<P><STRONG><a name="[a3]"></a>ConfigHWled</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, config.o(i.ConfigHWled))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = ConfigHWled &rArr; GPIO_SetMode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetMode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Config
+</UL>
+
+<P><STRONG><a name="[a4]"></a>Config_ADE7878_IRQ</STRONG> (Thumb, 96 bytes, Stack size 8 bytes, ade7878_int.o(i.Config_ADE7878_IRQ))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = Config_ADE7878_IRQ &rArr; GPIO_SetMode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetMode
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_EnableInt
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Config
+</UL>
+
+<P><STRONG><a name="[96]"></a>Delay</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, ade7878_spi.o(i.Delay))
+<BR><BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878Reset
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878PSM0
+</UL>
+
+<P><STRONG><a name="[d0]"></a>Delay_nms</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, ds12864.o(i.Delay_nms))
+<BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_dat
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_init
+</UL>
+
+<P><STRONG><a name="[a6]"></a>Display_Task</STRONG> (Thumb, 60 bytes, Stack size 4 bytes, ds12864.o(i.Display_Task))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = Display_Task &rArr; LCD_Setaddress &rArr; LCD_write_com
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Setaddress
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[a9]"></a>EEFS_Close</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, eefs_filesys.o(i.EEFS_Close))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = EEFS_Close &rArr; EEFS_LibClose &rArr; Write_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibClose
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TestEEPROM_Filesystem
+</UL>
+
+<P><STRONG><a name="[ab]"></a>EEFS_Creat</STRONG> (Thumb, 90 bytes, Stack size 160 bytes, eefs_filesys.o(i.EEFS_Creat))
+<BR><BR>[Stack]<UL><LI>Max Depth = 296<LI>Call Chain = EEFS_Creat &rArr; EEFS_LibCreat &rArr; EEFS_LibOpenFile &rArr; Read_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_SplitPath
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_FindVolume
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_FindDevice
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibCreat
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TestEEPROM_Filesystem
+</UL>
+
+<P><STRONG><a name="[ae]"></a>EEFS_FindDevice</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, eefs_filesys.o(i.EEFS_FindDevice))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = EEFS_FindDevice &rArr; strncmp
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strncmp
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Open
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Mount
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Creat
+</UL>
+
+<P><STRONG><a name="[ad]"></a>EEFS_FindVolume</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, eefs_filesys.o(i.EEFS_FindVolume))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = EEFS_FindVolume &rArr; strncmp
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strncmp
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Open
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Mount
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Creat
+</UL>
+
+<P><STRONG><a name="[b1]"></a>EEFS_FreeDevice</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, eefs_filesys.o(i.EEFS_FreeDevice))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = EEFS_FreeDevice
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_InitFS
+</UL>
+
+<P><STRONG><a name="[b5]"></a>EEFS_GetDevice</STRONG> (Thumb, 62 bytes, Stack size 0 bytes, eefs_filesys.o(i.EEFS_GetDevice))
+<BR><BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_InitFS
+</UL>
+
+<P><STRONG><a name="[c7]"></a>EEFS_GetVolume</STRONG> (Thumb, 50 bytes, Stack size 0 bytes, eefs_filesys.o(i.EEFS_GetVolume))
+<BR><BR>[Called By]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Mount
+</UL>
+
+<P><STRONG><a name="[b3]"></a>EEFS_InitFS</STRONG> (Thumb, 184 bytes, Stack size 24 bytes, eefs_filesys.o(i.EEFS_InitFS))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = EEFS_InitFS &rArr; EEFS_LibInitFS &rArr; Read_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strncmp
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strncpy
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_GetDevice
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_FreeDevice
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibInitFS
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TestEEPROM_Filesystem
+</UL>
+
+<P><STRONG><a name="[aa]"></a>EEFS_LibClose</STRONG> (Thumb, 372 bytes, Stack size 128 bytes, eefs_fileapi.o(i.EEFS_LibClose))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = EEFS_LibClose &rArr; Write_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Write_EEPROM
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Read_EEPROM
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibIsValidFileDescriptor
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibFreeFileDescriptor
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Close
+</UL>
+
+<P><STRONG><a name="[af]"></a>EEFS_LibCreat</STRONG> (Thumb, 82 bytes, Stack size 24 bytes, eefs_fileapi.o(i.EEFS_LibCreat))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = EEFS_LibCreat &rArr; EEFS_LibOpenFile &rArr; Read_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibOpenFile
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibIsValidFilename
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibFindFile
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibCreatFile
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Creat
+</UL>
+
+<P><STRONG><a name="[bf]"></a>EEFS_LibCreatFile</STRONG> (Thumb, 304 bytes, Stack size 96 bytes, eefs_fileapi.o(i.EEFS_LibCreatFile))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = EEFS_LibCreatFile &rArr; Write_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strncpy
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Write_EEPROM
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibHasOpenCreat
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibGetFileDescriptor
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibOpen
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibCreat
+</UL>
+
+<P><STRONG><a name="[bd]"></a>EEFS_LibFindFile</STRONG> (Thumb, 66 bytes, Stack size 80 bytes, eefs_fileapi.o(i.EEFS_LibFindFile))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = EEFS_LibFindFile &rArr; Read_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strncmp
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Read_EEPROM
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibOpen
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibCreat
+</UL>
+
+<P><STRONG><a name="[c3]"></a>EEFS_LibFmode</STRONG> (Thumb, 74 bytes, Stack size 12 bytes, eefs_fileapi.o(i.EEFS_LibFmode))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = EEFS_LibFmode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibOpenFile
+</UL>
+
+<P><STRONG><a name="[bb]"></a>EEFS_LibFreeFileDescriptor</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, eefs_fileapi.o(i.EEFS_LibFreeFileDescriptor))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = EEFS_LibFreeFileDescriptor
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibIsValidFileDescriptor
+</UL>
+<BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibClose
+</UL>
+
+<P><STRONG><a name="[c1]"></a>EEFS_LibGetFileDescriptor</STRONG> (Thumb, 74 bytes, Stack size 0 bytes, eefs_fileapi.o(i.EEFS_LibGetFileDescriptor))
+<BR><BR>[Called By]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibOpenFile
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibCreatFile
+</UL>
+
+<P><STRONG><a name="[c0]"></a>EEFS_LibHasOpenCreat</STRONG> (Thumb, 64 bytes, Stack size 0 bytes, eefs_fileapi.o(i.EEFS_LibHasOpenCreat))
+<BR><BR>[Called By]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibCreatFile
+</UL>
+
+<P><STRONG><a name="[b7]"></a>EEFS_LibInitFS</STRONG> (Thumb, 144 bytes, Stack size 56 bytes, eefs_fileapi.o(i.EEFS_LibInitFS))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = EEFS_LibInitFS &rArr; Read_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Read_EEPROM
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_InitFS
+</UL>
+
+<P><STRONG><a name="[b8]"></a>EEFS_LibIsValidFileDescriptor</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, eefs_fileapi.o(i.EEFS_LibIsValidFileDescriptor))
+<BR><BR>[Called By]<UL><LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibWrite
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibRead
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibFreeFileDescriptor
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibClose
+</UL>
+
+<P><STRONG><a name="[bc]"></a>EEFS_LibIsValidFilename</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, eefs_fileapi.o(i.EEFS_LibIsValidFilename))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = EEFS_LibIsValidFilename
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibOpen
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibCreat
+</UL>
+
+<P><STRONG><a name="[c2]"></a>EEFS_LibOpen</STRONG> (Thumb, 94 bytes, Stack size 32 bytes, eefs_fileapi.o(i.EEFS_LibOpen))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = EEFS_LibOpen &rArr; EEFS_LibOpenFile &rArr; Read_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibOpenFile
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibIsValidFilename
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibFindFile
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibCreatFile
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Open
+</UL>
+
+<P><STRONG><a name="[be]"></a>EEFS_LibOpenFile</STRONG> (Thumb, 326 bytes, Stack size 96 bytes, eefs_fileapi.o(i.EEFS_LibOpenFile))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = EEFS_LibOpenFile &rArr; Read_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Read_EEPROM
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibGetFileDescriptor
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibFmode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibOpen
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibCreat
+</UL>
+
+<P><STRONG><a name="[c4]"></a>EEFS_LibRead</STRONG> (Thumb, 198 bytes, Stack size 24 bytes, eefs_fileapi.o(i.EEFS_LibRead))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = EEFS_LibRead &rArr; Read_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Read_EEPROM
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibIsValidFileDescriptor
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Read
+</UL>
+
+<P><STRONG><a name="[c5]"></a>EEFS_LibWrite</STRONG> (Thumb, 246 bytes, Stack size 24 bytes, eefs_fileapi.o(i.EEFS_LibWrite))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = EEFS_LibWrite &rArr; Write_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Write_EEPROM
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibIsValidFileDescriptor
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Write
+</UL>
+
+<P><STRONG><a name="[c6]"></a>EEFS_Mount</STRONG> (Thumb, 130 bytes, Stack size 24 bytes, eefs_filesys.o(i.EEFS_Mount))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = EEFS_Mount &rArr; EEFS_FindVolume &rArr; strncmp
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strncpy
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_GetVolume
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_FindVolume
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_FindDevice
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TestEEPROM_Filesystem
+</UL>
+
+<P><STRONG><a name="[c8]"></a>EEFS_Open</STRONG> (Thumb, 92 bytes, Stack size 160 bytes, eefs_filesys.o(i.EEFS_Open))
+<BR><BR>[Stack]<UL><LI>Max Depth = 304<LI>Call Chain = EEFS_Open &rArr; EEFS_LibOpen &rArr; EEFS_LibOpenFile &rArr; Read_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_SplitPath
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_FindVolume
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_FindDevice
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibOpen
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TestEEPROM_Filesystem
+</UL>
+
+<P><STRONG><a name="[c9]"></a>EEFS_Read</STRONG> (Thumb, 38 bytes, Stack size 24 bytes, eefs_filesys.o(i.EEFS_Read))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = EEFS_Read &rArr; EEFS_LibRead &rArr; Read_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibRead
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TestEEPROM_Filesystem
+</UL>
+
+<P><STRONG><a name="[ac]"></a>EEFS_SplitPath</STRONG> (Thumb, 130 bytes, Stack size 24 bytes, eefs_filesys.o(i.EEFS_SplitPath))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = EEFS_SplitPath &rArr; strncpy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strncpy
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Open
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Creat
+</UL>
+
+<P><STRONG><a name="[ca]"></a>EEFS_Write</STRONG> (Thumb, 38 bytes, Stack size 24 bytes, eefs_filesys.o(i.EEFS_Write))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = EEFS_Write &rArr; EEFS_LibWrite &rArr; Write_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibWrite
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TestEEPROM_Filesystem
+</UL>
+
+<P><STRONG><a name="[104]"></a>EnterCriticalSection</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, port.o(i.EnterCriticalSection))
+<BR><BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peBTFrameSendCur
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStop
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStart
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUSend
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUReceive
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUInit
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[107]"></a>ExitCriticalSection</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, port.o(i.ExitCriticalSection))
+<BR><BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peBTFrameSendCur
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStop
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStart
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUSend
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUReceive
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUInit
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[21]"></a>GPB_IRQHandler</STRONG> (Thumb, 70 bytes, Stack size 0 bytes, ade7878_int.o(i.GPB_IRQHandler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[a5]"></a>GPIO_EnableInt</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, gpio.o(i.GPIO_EnableInt))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = GPIO_EnableInt
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Config_ADE7878_IRQ
+</UL>
+
+<P><STRONG><a name="[95]"></a>GPIO_SetMode</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, gpio.o(i.GPIO_SetMode))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = GPIO_SetMode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init12864
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Config_ADE7878_IRQ
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ConfigHWled
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ConfigHWSpiport
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Usart_Init
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878Reset
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878PSM0
+</UL>
+
+<P><STRONG><a name="[72]"></a>Hard_Fault_Handler</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, retarget.o(i.Hard_Fault_Handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Hard_Fault_Handler &rArr; stackDump &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stackDump
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> retarget.o(.emb_text)
+</UL>
+<P><STRONG><a name="[cd]"></a>Init12864</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, ds12864.o(i.Init12864))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = Init12864 &rArr; GPIO_SetMode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetMode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_init
+</UL>
+
+<P><STRONG><a name="[a7]"></a>LCD_Setaddress</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, ds12864.o(i.LCD_Setaddress))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = LCD_Setaddress &rArr; LCD_write_com
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Display_Task
+</UL>
+
+<P><STRONG><a name="[cf]"></a>LCD_init</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, ds12864.o(i.LCD_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = LCD_init &rArr; Init12864 &rArr; GPIO_SetMode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init12864
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_nms
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Config
+</UL>
+
+<P><STRONG><a name="[d1]"></a>LCD_sendbyte</STRONG> (Thumb, 58 bytes, Stack size 0 bytes, ds12864.o(i.LCD_sendbyte))
+<BR><BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_dat
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+</UL>
+
+<P><STRONG><a name="[ce]"></a>LCD_write_com</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, ds12864.o(i.LCD_write_com))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = LCD_write_com
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_sendbyte
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_nms
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Watthr2Display
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Watt2Display
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Vrms2Display
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Irms2Display
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Setaddress
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_init
+</UL>
+
+<P><STRONG><a name="[d2]"></a>LCD_write_dat</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, ds12864.o(i.LCD_write_dat))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = LCD_write_dat
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_sendbyte
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_nms
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;print
+</UL>
+
+<P><STRONG><a name="[d3]"></a>PowerMeasurment</STRONG> (Thumb, 476 bytes, Stack size 104 bytes, ad7878_measure.o(i.PowerMeasurment))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = PowerMeasurment &rArr; Set_Watthr2Display &rArr; __2sprintf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Watthr2Display
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Watt2Display
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Vrms2Display
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Irms2Display
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Display_Task
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2d
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite4Bytes
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead4Bytes
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead2Bytes
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIDelay
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[b9]"></a>Read_EEPROM</STRONG> (Thumb, 22 bytes, Stack size 16 bytes, eeprom.o(i.Read_EEPROM))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = Read_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibRead
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibOpenFile
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibInitFS
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibFindFile
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibClose
+</UL>
+
+<P><STRONG><a name="[99]"></a>SPIDelay</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, ade7878_spi.o(i.SPIDelay))
+<BR><BR>[Called By]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878SPICfg
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite4Bytes
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite2Bytes
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIWrite1Byte
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead4Bytes
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead2Bytes
+</UL>
+
+<P><STRONG><a name="[d4]"></a>SPIRead2Bytes</STRONG> (Thumb, 126 bytes, Stack size 32 bytes, ade7878_spi.o(i.SPIRead2Bytes))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = SPIRead2Bytes
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_ClearRxFIFO
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[9b]"></a>SPIRead4Bytes</STRONG> (Thumb, 142 bytes, Stack size 32 bytes, ade7878_spi.o(i.SPIRead4Bytes))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = SPIRead4Bytes
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_ClearRxFIFO
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+</UL>
+
+<P><STRONG><a name="[93]"></a>SPIWrite1Byte</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, ade7878_spi.o(i.SPIWrite1Byte))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SPIWrite1Byte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878SPICfg
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878Cfg
+</UL>
+
+<P><STRONG><a name="[91]"></a>SPIWrite2Bytes</STRONG> (Thumb, 78 bytes, Stack size 16 bytes, ade7878_spi.o(i.SPIWrite2Bytes))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SPIWrite2Bytes
+</UL>
+<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878Cfg
+</UL>
+
+<P><STRONG><a name="[92]"></a>SPIWrite4Bytes</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, ade7878_spi.o(i.SPIWrite4Bytes))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SPIWrite4Bytes
+</UL>
+<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878Cfg
+</UL>
+
+<P><STRONG><a name="[dc]"></a>SPI_ClearRxFIFO</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, spi.o(i.SPI_ClearRxFIFO))
+<BR><BR>[Called By]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead4Bytes
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIRead2Bytes
+</UL>
+
+<P><STRONG><a name="[a2]"></a>SPI_DisableAutoSS</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, spi.o(i.SPI_DisableAutoSS))
+<BR><BR>[Called By]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ConfigHWSpiport
+</UL>
+
+<P><STRONG><a name="[a1]"></a>SPI_Open</STRONG> (Thumb, 88 bytes, Stack size 32 bytes, spi.o(i.SPI_Open))
+<BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = SPI_Open &rArr; CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetHCLKFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ConfigHWSpiport
+</UL>
+
+<P><STRONG><a name="[dd]"></a>SYS_Config</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, config.o(i.SYS_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = SYS_Config &rArr; ConfigHWSpiport &rArr; SPI_Open &rArr; CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_init
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Config_ADE7878_IRQ
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ConfigHWled
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ConfigHWSpiport
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Usart_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[df]"></a>SYS_Init</STRONG> (Thumb, 80 bytes, Stack size 8 bytes, main.o(i.SYS_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = SYS_Init &rArr; CLK_SetHCLK &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_UnlockReg
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_WaitClockReady
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetHCLK
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableXtalRC
+<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[e0]"></a>SYS_UnlockReg</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, sys.o(i.SYS_UnlockReg))
+<BR><BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+</UL>
+
+<P><STRONG><a name="[e4]"></a>SendChar</STRONG> (Thumb, 12 bytes, Stack size 4 bytes, retarget.o(i.SendChar))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = SendChar
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendChar_ToUART
+</UL>
+<BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+</UL>
+
+<P><STRONG><a name="[e5]"></a>SendChar_ToUART</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, retarget.o(i.SendChar_ToUART))
+<BR><BR>[Called By]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendChar
+</UL>
+
+<P><STRONG><a name="[e3]"></a>SetSysTick</STRONG> (Thumb, 54 bytes, Stack size 0 bytes, main.o(i.SetSysTick))
+<BR><BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+</UL>
+
+<P><STRONG><a name="[d6]"></a>Set_Irms2Display</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, ds12864.o(i.Set_Irms2Display))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Set_Irms2Display &rArr; __2sprintf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[d5]"></a>Set_Vrms2Display</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, ds12864.o(i.Set_Vrms2Display))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Set_Vrms2Display &rArr; __2sprintf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[d7]"></a>Set_Watt2Display</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, ds12864.o(i.Set_Watt2Display))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Set_Watt2Display &rArr; __2sprintf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[d8]"></a>Set_Watthr2Display</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, ds12864.o(i.Set_Watthr2Display))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Set_Watthr2Display &rArr; __2sprintf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_com
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[f]"></a>SysTick_Handler</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, main.o(i.SysTick_Handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = SysTick_Handler &rArr; eMBPoll &rArr; peBTFrameSendCur &rArr; vMBPortSerialEnable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBPoll
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[9d]"></a>SystemCoreClockUpdate</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, system_nuc472_442.o(i.SystemCoreClockUpdate))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPLLClockFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetHCLK
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetHCLKFreq
+</UL>
+
+<P><STRONG><a name="[73]"></a>SystemInit</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, system_nuc472_442.o(i.SystemInit))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(.text)
+</UL>
+<P><STRONG><a name="[112]"></a>TIMER_Close</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, timer.o(i.TIMER_Close))
+<BR><BR>[Called By]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+</UL>
+
+<P><STRONG><a name="[e8]"></a>TIMER_GetModuleClock</STRONG> (Thumb, 112 bytes, Stack size 48 bytes, timer.o(i.TIMER_GetModuleClock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Open
+</UL>
+
+<P><STRONG><a name="[ea]"></a>TIMER_Open</STRONG> (Thumb, 98 bytes, Stack size 32 bytes, timer.o(i.TIMER_Open))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = TIMER_Open &rArr; TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_GetModuleClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+</UL>
+
+<P><STRONG><a name="[29]"></a>TMR0_IRQHandler</STRONG> (Thumb, 60 bytes, Stack size 8 bytes, porttimer.o(i.TMR0_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = TMR0_IRQHandler &rArr; prvvTIMERExpiredISR
+</UL>
+<BR>[Calls]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvvTIMERExpiredISR
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[ec]"></a>TestEEPROM_Filesystem</STRONG> (Thumb, 240 bytes, Stack size 656 bytes, eepromapp.o(i.TestEEPROM_Filesystem))
+<BR><BR>[Stack]<UL><LI>Max Depth = 960<LI>Call Chain = TestEEPROM_Filesystem &rArr; EEFS_Open &rArr; EEFS_LibOpen &rArr; EEFS_LibOpenFile &rArr; Read_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcpy
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strncpy
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcat
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Write
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Read
+<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Open
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Mount
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_InitFS
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Creat
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_Close
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[5a]"></a>UART3_IRQHandler</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, portserial.o(i.UART3_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = UART3_IRQHandler &rArr; prvvUARTTxReadyISR
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvvUARTTxReadyISR
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvvUARTRxISR
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[116]"></a>UART_DisableFlowCtrl</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, uart.o(i.UART_DisableFlowCtrl))
+<BR><BR>[Called By]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[110]"></a>UART_DisableInt</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, uart.o(i.UART_DisableInt))
+<BR><BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+</UL>
+
+<P><STRONG><a name="[10f]"></a>UART_EnableInt</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, uart.o(i.UART_EnableInt))
+<BR><BR>[Called By]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+</UL>
+
+<P><STRONG><a name="[f1]"></a>UART_Open</STRONG> (Thumb, 118 bytes, Stack size 40 bytes, uart.o(i.UART_Open))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = UART_Open &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPLLClockFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Usart_Init
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+</UL>
+
+<P><STRONG><a name="[f3]"></a>UART_Write</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, uart.o(i.UART_Write))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = UART_Write
+</UL>
+<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Usart_Init
+</UL>
+
+<P><STRONG><a name="[de]"></a>Usart_Init</STRONG> (Thumb, 98 bytes, Stack size 8 bytes, usart.o(i.Usart_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = Usart_Init &rArr; UART_Open &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Write
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Open
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetMode
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetModuleClock
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableModuleClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Config
+</UL>
+
+<P><STRONG><a name="[ba]"></a>Write_EEPROM</STRONG> (Thumb, 22 bytes, Stack size 16 bytes, eeprom.o(i.Write_EEPROM))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = Write_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibWrite
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibCreatFile
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EEFS_LibClose
+</UL>
+
+<P><STRONG><a name="[f4]"></a>__0printf</STRONG> (Thumb, 22 bytes, Stack size 24 bytes, printfa.o(i.__0printf), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[184]"></a>__1printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0printf), UNUSED)
+
+<P><STRONG><a name="[cb]"></a>__2printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0printf))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TestEEPROM_Filesystem
+<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Hard_Fault_Handler
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stackDump
+</UL>
+
+<P><STRONG><a name="[185]"></a>__c89printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0printf), UNUSED)
+
+<P><STRONG><a name="[186]"></a>printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0printf), UNUSED)
+
+<P><STRONG><a name="[f6]"></a>__0sprintf</STRONG> (Thumb, 34 bytes, Stack size 24 bytes, printfa.o(i.__0sprintf), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sputc
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[187]"></a>__1sprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0sprintf), UNUSED)
+
+<P><STRONG><a name="[da]"></a>__2sprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0sprintf))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Watthr2Display
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Watt2Display
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Vrms2Display
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_Irms2Display
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+</UL>
+
+<P><STRONG><a name="[188]"></a>__c89sprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0sprintf), UNUSED)
+
+<P><STRONG><a name="[189]"></a>sprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printfa.o(i.__0sprintf), UNUSED)
+
+<P><STRONG><a name="[18a]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[18b]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[18c]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+
+<P><STRONG><a name="[5]"></a>eBTFuncReadHoldingRegister</STRONG> (Thumb, 80 bytes, Stack size 24 bytes, btfunc.o(i.eBTFuncReadHoldingRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = eBTFuncReadHoldingRegister
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[10e]"></a>eMBEnable</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, mb.o(i.eMBEnable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = eMBEnable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[2]"></a>eMBFuncReadHoldingRegister</STRONG> (Thumb, 140 bytes, Stack size 32 bytes, mbfuncholding.o(i.eMBFuncReadHoldingRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = eMBFuncReadHoldingRegister &rArr; eMBRegHoldingCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[4]"></a>eMBFuncReadWriteMultipleHoldingRegister</STRONG> (Thumb, 212 bytes, Stack size 48 bytes, mbfuncholding.o(i.eMBFuncReadWriteMultipleHoldingRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = eMBFuncReadWriteMultipleHoldingRegister &rArr; eMBRegHoldingCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[1]"></a>eMBFuncReportSlaveID</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, mbfuncother.o(i.eMBFuncReportSlaveID))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = eMBFuncReportSlaveID
+</UL>
+<BR>[Calls]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[3]"></a>eMBFuncWriteHoldingRegister</STRONG> (Thumb, 66 bytes, Stack size 24 bytes, mbfuncholding.o(i.eMBFuncWriteHoldingRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = eMBFuncWriteHoldingRegister &rArr; eMBRegHoldingCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prveMBError2Exception
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(.data)
+</UL>
+<P><STRONG><a name="[fe]"></a>eMBInit</STRONG> (Thumb, 150 bytes, Stack size 32 bytes, mb.o(i.eMBInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = eMBInit &rArr; eMBRTUInit &rArr; xMBPortTimersInit &rArr; TIMER_Open &rArr; TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUInit
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[e6]"></a>eMBPoll</STRONG> (Thumb, 438 bytes, Stack size 16 bytes, mb.o(i.eMBPoll))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = eMBPoll &rArr; peBTFrameSendCur &rArr; vMBPortSerialEnable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peBTFrameSendCur
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventPost
+<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventGet
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+
+<P><STRONG><a name="[ff]"></a>eMBRTUInit</STRONG> (Thumb, 84 bytes, Stack size 32 bytes, mbrtu.o(i.eMBRTUInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = eMBRTUInit &rArr; xMBPortTimersInit &rArr; TIMER_Open &rArr; TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialInit
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBInit
+</UL>
+
+<P><STRONG><a name="[7a]"></a>eMBRTUReceive</STRONG> (Thumb, 100 bytes, Stack size 24 bytes, mbrtu.o(i.eMBRTUReceive))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = eMBRTUReceive &rArr; usMBCRC16
+</UL>
+<BR>[Calls]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usMBCRC16
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[79]"></a>eMBRTUSend</STRONG> (Thumb, 124 bytes, Stack size 24 bytes, mbrtu.o(i.eMBRTUSend))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = eMBRTUSend &rArr; vMBPortSerialEnable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usMBCRC16
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[77]"></a>eMBRTUStart</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, mbrtu.o(i.eMBRTUStart))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = eMBRTUStart &rArr; vMBPortTimersEnable &rArr; TIMER_Open &rArr; TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[78]"></a>eMBRTUStop</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, mbrtu.o(i.eMBRTUStop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = eMBRTUStop &rArr; vMBPortSerialEnable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[fd]"></a>eMBRegHoldingCB</STRONG> (Thumb, 188 bytes, Stack size 32 bytes, user_mb_app.o(i.eMBRegHoldingCB))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = eMBRegHoldingCB
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBMasterGetCBRunInMasterMode
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ucMBMasterGetDestAddress
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncWriteHoldingRegister
+<LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadWriteMultipleHoldingRegister
+<LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadHoldingRegister
+</UL>
+
+<P><STRONG><a name="[75]"></a>fputc</STRONG> (Thumb, 16 bytes, Stack size 12 bytes, retarget.o(i.fputc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = fputc &rArr; SendChar
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendChar
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> printfa.o(i.__0printf)
+</UL>
+<P><STRONG><a name="[71]"></a>main</STRONG> (Thumb, 78 bytes, Stack size 16 bytes, main.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 976<LI>Call Chain = main &rArr; TestEEPROM_Filesystem &rArr; EEFS_Open &rArr; EEFS_LibOpen &rArr; EEFS_LibOpenFile &rArr; Read_EEPROM
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBInit
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBEnable
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TestEEPROM_Filesystem
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Config
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PowerMeasurment
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADE7878_main
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry7.o(.ARM.Collect$$$$00000007)
+</UL>
+<P><STRONG><a name="[103]"></a>peBTFrameSendCur</STRONG> (Thumb, 182 bytes, Stack size 24 bytes, mbrtu.o(i.peBTFrameSendCur))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = peBTFrameSendCur &rArr; vMBPortSerialEnable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usMBCRC16
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBPoll
+</UL>
+
+<P><STRONG><a name="[a8]"></a>print</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, ds12864.o(i.print))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = print &rArr; LCD_write_dat
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_write_dat
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Display_Task
+</UL>
+
+<P><STRONG><a name="[fc]"></a>prveMBError2Exception</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, mbutils.o(i.prveMBError2Exception))
+<BR><BR>[Called By]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eBTFuncReadHoldingRegister
+<LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncWriteHoldingRegister
+<LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadWriteMultipleHoldingRegister
+<LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBFuncReadHoldingRegister
+</UL>
+
+<P><STRONG><a name="[10d]"></a>ucMBMasterGetDestAddress</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, user_mb_app.o(i.ucMBMasterGetDestAddress))
+<BR><BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+</UL>
+
+<P><STRONG><a name="[108]"></a>usMBCRC16</STRONG> (Thumb, 48 bytes, Stack size 12 bytes, mbcrc.o(i.usMBCRC16))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = usMBCRC16
+</UL>
+<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peBTFrameSendCur
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUSend
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUReceive
+</UL>
+
+<P><STRONG><a name="[109]"></a>vMBPortSerialEnable</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, portserial.o(i.vMBPortSerialEnable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = vMBPortSerialEnable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_EnableInt
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_DisableInt
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUTransmitFSM
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peBTFrameSendCur
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStop
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStart
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUSend
+</UL>
+
+<P><STRONG><a name="[10b]"></a>vMBPortTimersDisable</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, porttimer.o(i.vMBPortTimersDisable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = vMBPortTimersDisable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Close
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Stop
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUTimerT35Expired
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStop
+</UL>
+
+<P><STRONG><a name="[10a]"></a>vMBPortTimersEnable</STRONG> (Thumb, 66 bytes, Stack size 8 bytes, porttimer.o(i.vMBPortTimersEnable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = vMBPortTimersEnable &rArr; TIMER_Open &rArr; TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Open
+<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_EnableInt
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetPriority
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_EnableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUReceiveFSM
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUStart
+</UL>
+
+<P><STRONG><a name="[10c]"></a>xMBMasterGetCBRunInMasterMode</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, user_mb_app.o(i.xMBMasterGetCBRunInMasterMode))
+<BR><BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRegHoldingCB
+</UL>
+
+<P><STRONG><a name="[101]"></a>xMBPortEventGet</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, portevent.o(i.xMBPortEventGet))
+<BR><BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBPoll
+</UL>
+
+<P><STRONG><a name="[100]"></a>xMBPortEventInit</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, portevent.o(i.xMBPortEventInit))
+<BR><BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBInit
+</UL>
+
+<P><STRONG><a name="[102]"></a>xMBPortEventPost</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, portevent.o(i.xMBPortEventPost))
+<BR><BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBPoll
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUTransmitFSM
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUTimerT35Expired
+</UL>
+
+<P><STRONG><a name="[117]"></a>xMBPortSerialGetByte</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, portserial.o(i.xMBPortSerialGetByte))
+<BR><BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUReceiveFSM
+</UL>
+
+<P><STRONG><a name="[105]"></a>xMBPortSerialInit</STRONG> (Thumb, 160 bytes, Stack size 24 bytes, portserial.o(i.xMBPortSerialInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = xMBPortSerialInit &rArr; UART_Open &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Open
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetMode
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetModuleClock
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableModuleClock
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_EnableInt
+<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_DisableFlowCtrl
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ExitCriticalSection
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EnterCriticalSection
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUInit
+</UL>
+
+<P><STRONG><a name="[118]"></a>xMBPortSerialPutByte</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, portserial.o(i.xMBPortSerialPutByte))
+<BR><BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBRTUTransmitFSM
+</UL>
+
+<P><STRONG><a name="[106]"></a>xMBPortTimersInit</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, porttimer.o(i.xMBPortTimersInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = xMBPortTimersInit &rArr; TIMER_Open &rArr; TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Open
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetModuleClock
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableModuleClock
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Stop
+<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_EnableInt
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetPriority
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_EnableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;eMBRTUInit
+</UL>
+
+<P><STRONG><a name="[7b]"></a>xMBRTUReceiveFSM</STRONG> (Thumb, 122 bytes, Stack size 16 bytes, mbrtu.o(i.xMBRTUReceiveFSM))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = xMBRTUReceiveFSM &rArr; vMBPortTimersEnable &rArr; TIMER_Open &rArr; TIMER_GetModuleClock
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialGetByte
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[7d]"></a>xMBRTUTimerT35Expired</STRONG> (Thumb, 60 bytes, Stack size 8 bytes, mbrtu.o(i.xMBRTUTimerT35Expired))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = xMBRTUTimerT35Expired &rArr; vMBPortTimersDisable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventPost
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL>
+<P><STRONG><a name="[7c]"></a>xMBRTUTransmitFSM</STRONG> (Thumb, 94 bytes, Stack size 8 bytes, mbrtu.o(i.xMBRTUTransmitFSM))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = xMBRTUTransmitFSM &rArr; vMBPortSerialEnable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortSerialPutByte
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortSerialEnable
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortEventPost
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> mb.o(i.eMBInit)
+</UL><P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[cc]"></a>stackDump</STRONG> (Thumb, 70 bytes, Stack size 8 bytes, retarget.o(i.stackDump))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = stackDump &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Hard_Fault_Handler
+</UL>
+
+<P><STRONG><a name="[15]"></a>Default_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_nuc472_442.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_nuc472_442.o(RESET)
+</UL>
+<P><STRONG><a name="[ef]"></a>prvvUARTRxISR</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, portserial.o(i.prvvUARTRxISR))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = prvvUARTRxISR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART3_IRQHandler
+</UL>
+
+<P><STRONG><a name="[f0]"></a>prvvUARTTxReadyISR</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, portserial.o(i.prvvUARTTxReadyISR))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = prvvUARTTxReadyISR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART3_IRQHandler
+</UL>
+
+<P><STRONG><a name="[115]"></a>NVIC_EnableIRQ</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, porttimer.o(i.NVIC_EnableIRQ))
+<BR><BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+</UL>
+
+<P><STRONG><a name="[114]"></a>NVIC_SetPriority</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, porttimer.o(i.NVIC_SetPriority))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = NVIC_SetPriority
+</UL>
+<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+</UL>
+
+<P><STRONG><a name="[113]"></a>TIMER_EnableInt</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, porttimer.o(i.TIMER_EnableInt))
+<BR><BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersEnable
+</UL>
+
+<P><STRONG><a name="[111]"></a>TIMER_Stop</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, porttimer.o(i.TIMER_Stop))
+<BR><BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xMBPortTimersInit
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vMBPortTimersDisable
+</UL>
+
+<P><STRONG><a name="[eb]"></a>prvvTIMERExpiredISR</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, porttimer.o(i.prvvTIMERExpiredISR))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = prvvTIMERExpiredISR
+</UL>
+<BR>[Called By]<UL><LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TMR0_IRQHandler
+</UL>
+
+<P><STRONG><a name="[f7]"></a>_fp_digits</STRONG> (Thumb, 318 bytes, Stack size 56 bytes, printfa.o(i._fp_digits), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2ulz
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[f5]"></a>_printf_core</STRONG> (Thumb, 1734 bytes, Stack size 136 bytes, printfa.o(i._printf_core), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
+<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sprintf
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0printf
+</UL>
+
+<P><STRONG><a name="[fa]"></a>_printf_post_padding</STRONG> (Thumb, 38 bytes, Stack size 24 bytes, printfa.o(i._printf_post_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[f9]"></a>_printf_pre_padding</STRONG> (Thumb, 46 bytes, Stack size 24 bytes, printfa.o(i._printf_pre_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[76]"></a>_sputc</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, printfa.o(i._sputc))
+<BR><BR>[Called By]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sprintf
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> printfa.o(i.__0sprintf)
+</UL><P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

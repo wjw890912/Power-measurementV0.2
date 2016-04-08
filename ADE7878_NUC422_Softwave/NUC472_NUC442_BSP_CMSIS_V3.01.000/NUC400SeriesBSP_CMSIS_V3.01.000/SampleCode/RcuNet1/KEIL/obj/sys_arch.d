@@ -1,0 +1,17 @@
+.\obj\sys_arch.o: ..\lwip-1.4.1\port\sys_arch.c
+.\obj\sys_arch.o: ..\lwip-1.4.1\port\include\arch/sys_arch.h
+.\obj\sys_arch.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/opt.h
+.\obj\sys_arch.o: ..\lwip-1.4.1\port\include\lwipopts.h
+.\obj\sys_arch.o: ..\lwip-1.4.1\port\include\lwipopts.h
+.\obj\sys_arch.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/debug.h
+.\obj\sys_arch.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/arch.h
+.\obj\sys_arch.o: ..\lwip-1.4.1\port\include\arch/cc.h
+.\obj\sys_arch.o: ..\lwip-1.4.1\port\include\arch/cpu.h
+.\obj\sys_arch.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\obj\sys_arch.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/opt.h
+.\obj\sys_arch.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/def.h
+.\obj\sys_arch.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/sys.h
+.\obj\sys_arch.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/mem.h
+.\obj\sys_arch.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/stats.h
+.\obj\sys_arch.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/memp.h
+.\obj\sys_arch.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/memp_std.h

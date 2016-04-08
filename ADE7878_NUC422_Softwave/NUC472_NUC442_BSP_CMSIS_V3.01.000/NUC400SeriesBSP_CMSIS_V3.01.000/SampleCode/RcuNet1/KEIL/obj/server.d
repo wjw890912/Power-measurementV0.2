@@ -1,0 +1,15 @@
+.\obj\server.o: ..\server.c
+.\obj\server.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/opt.h
+.\obj\server.o: ..\lwip-1.4.1\port\include\lwipopts.h
+.\obj\server.o: ..\lwip-1.4.1\port\include\lwipopts.h
+.\obj\server.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/debug.h
+.\obj\server.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/arch.h
+.\obj\server.o: ..\lwip-1.4.1\port\include\arch/cc.h
+.\obj\server.o: ..\lwip-1.4.1\port\include\arch/cpu.h
+.\obj\server.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\obj\server.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/opt.h
+.\obj\server.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/api.h
+.\obj\server.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\obj\server.o: ..\function.h
+.\obj\server.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\server.o: ..\btrcu.h

@@ -1,0 +1,11 @@
+.\obj\decoder.o: ..\..\..\..\ThirdParty\libmad\src\decoder.c
+.\obj\decoder.o: ..\..\..\..\ThirdParty\libmad\inc\mad.h
+.\obj\decoder.o: ..\..\..\..\ThirdParty\libmad\inc\decoder.h
+.\obj\decoder.o: ..\..\..\..\ThirdParty\libmad\inc\stream.h
+.\obj\decoder.o: ..\..\..\..\ThirdParty\libmad\inc\bit.h
+.\obj\decoder.o: ..\..\..\..\ThirdParty\libmad\inc\frame.h
+.\obj\decoder.o: ..\..\..\..\ThirdParty\libmad\inc\fixed.h
+.\obj\decoder.o: ..\..\..\..\ThirdParty\libmad\inc\mad_timer.h
+.\obj\decoder.o: ..\..\..\..\ThirdParty\libmad\inc\synth.h
+.\obj\decoder.o: ..\..\..\..\ThirdParty\libmad\inc\global.h
+.\obj\decoder.o: E:\Keil\ARM\RV31\INC\stdlib.h

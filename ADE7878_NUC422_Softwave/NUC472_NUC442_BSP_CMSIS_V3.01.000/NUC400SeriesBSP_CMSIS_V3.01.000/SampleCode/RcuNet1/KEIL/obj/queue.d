@@ -1,0 +1,14 @@
+.\obj\queue.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\queue.c
+.\obj\queue.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\queue.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\obj\queue.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\FreeRTOS.h
+.\obj\queue.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\obj\queue.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\projdefs.h
+.\obj\queue.o: ..\FreeRTOSConfig.h
+.\obj\queue.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\queue.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\portable.h
+.\obj\queue.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\portable\RVDS\ARM_CM4F\portmacro.h
+.\obj\queue.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\mpu_wrappers.h
+.\obj\queue.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\task.h
+.\obj\queue.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\list.h
+.\obj\queue.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\queue.h

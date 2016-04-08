@@ -1,0 +1,15 @@
+.\obj\genqtest.o: ..\..\..\ThirdParty\FreeRTOS\DEMO\COMMON\Minimal\GenQTest.c
+.\obj\genqtest.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\genqtest.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\FreeRTOS.h
+.\obj\genqtest.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\obj\genqtest.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\projdefs.h
+.\obj\genqtest.o: ..\FreeRTOSConfig.h
+.\obj\genqtest.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\genqtest.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\portable.h
+.\obj\genqtest.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\portable\RVDS\ARM_CM4F\portmacro.h
+.\obj\genqtest.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\mpu_wrappers.h
+.\obj\genqtest.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\task.h
+.\obj\genqtest.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\list.h
+.\obj\genqtest.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\queue.h
+.\obj\genqtest.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\semphr.h
+.\obj\genqtest.o: ..\..\..\ThirdParty\FreeRTOS\DEMO\COMMON\include\GenQTest.h

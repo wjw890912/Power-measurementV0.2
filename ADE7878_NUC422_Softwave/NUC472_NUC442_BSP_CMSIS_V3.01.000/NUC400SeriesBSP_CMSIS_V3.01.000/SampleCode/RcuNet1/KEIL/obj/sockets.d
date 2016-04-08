@@ -1,0 +1,10 @@
+.\obj\sockets.o: ..\..\..\ThirdParty\lwip-1.4.1\src\api\sockets.c
+.\obj\sockets.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/opt.h
+.\obj\sockets.o: ..\lwip-1.4.1\port\include\lwipopts.h
+.\obj\sockets.o: ..\lwip-1.4.1\port\include\lwipopts.h
+.\obj\sockets.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/debug.h
+.\obj\sockets.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/arch.h
+.\obj\sockets.o: ..\lwip-1.4.1\port\include\arch/cc.h
+.\obj\sockets.o: ..\lwip-1.4.1\port\include\arch/cpu.h
+.\obj\sockets.o: E:\Keil\ARM\RV31\INC\stdio.h
+.\obj\sockets.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/opt.h

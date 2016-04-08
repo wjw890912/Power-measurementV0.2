@@ -1,0 +1,11 @@
+.\obj\port.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\portable\RVDS\ARM_CM4F\port.c
+.\obj\port.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\FreeRTOS.h
+.\obj\port.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\obj\port.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\projdefs.h
+.\obj\port.o: ..\FreeRTOSConfig.h
+.\obj\port.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\port.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\portable.h
+.\obj\port.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\portable\RVDS\ARM_CM4F\portmacro.h
+.\obj\port.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\mpu_wrappers.h
+.\obj\port.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\task.h
+.\obj\port.o: ..\..\..\ThirdParty\FreeRTOS\SOURCE\include\list.h

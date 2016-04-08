@@ -1,0 +1,11 @@
+.\obj\timer.o: ..\..\..\..\ThirdParty\libmad\src\timer.c
+.\obj\timer.o: ..\..\..\..\ThirdParty\libmad\inc\mad.h
+.\obj\timer.o: ..\..\..\..\ThirdParty\libmad\inc\decoder.h
+.\obj\timer.o: ..\..\..\..\ThirdParty\libmad\inc\stream.h
+.\obj\timer.o: ..\..\..\..\ThirdParty\libmad\inc\bit.h
+.\obj\timer.o: ..\..\..\..\ThirdParty\libmad\inc\frame.h
+.\obj\timer.o: ..\..\..\..\ThirdParty\libmad\inc\fixed.h
+.\obj\timer.o: ..\..\..\..\ThirdParty\libmad\inc\mad_timer.h
+.\obj\timer.o: ..\..\..\..\ThirdParty\libmad\inc\synth.h
+.\obj\timer.o: ..\..\..\..\ThirdParty\libmad\inc\global.h
+.\obj\timer.o: E:\Keil\ARM\RV31\INC\stdio.h

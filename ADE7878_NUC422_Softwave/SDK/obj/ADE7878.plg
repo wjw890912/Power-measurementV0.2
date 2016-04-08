@@ -1,0 +1,1021 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\王均伟\电能\ADE7878_NUC422_Softwave\SDK\ADE7878.uvproj
+Project File Date:  04/06/2016
+
+<h2>Output:</h2>
+Build target 'ADE7878'
+linking...
+Program Size: Code=17676 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 0 Warning(s).
+Build target 'ADE7878'
+compiling main.c...
+..\app\src\main.c(123): warning:  #111-D: statement is unreachable
+..\app\src\main.c:     SysTem_entry();
+..\app\src\main.c:     ^
+..\app\src\main.c(102): warning:  #177-D: variable "ucSlaveID" was declared but never referenced
+..\app\src\main.c:   const UCHAR  ucSlaveID[] = { 0xAA, 0xBB, 0xCC };
+..\app\src\main.c:                ^
+..\app\src\main.c(103): warning:  #550-D: variable "eStatus" was set but never used
+..\app\src\main.c:   eMBErrorCode    eStatus;
+..\app\src\main.c:                   ^
+..\app\src\main.c: ..\app\src\main.c: 3 warnings, 0 errors
+compiling port.c...
+compiling portevent.c...
+compiling portserial.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\portserial.c(156): warning:  #177-D: variable "u" was declared but never referenced
+..\freemodbus-v1.6.0\port\portserial.c:         char u;
+..\freemodbus-v1.6.0\port\portserial.c:              ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 3 warnings, 0 errors
+compiling porttimer.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\porttimer.c(37): warning:  #177-D: variable "PrescalerValue" was declared but never referenced
+..\freemodbus-v1.6.0\port\porttimer.c:          uint16_t PrescalerValue = 0;
+..\freemodbus-v1.6.0\port\porttimer.c:                   ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 3 warnings, 0 errors
+compiling user_mb_app.c...
+compiling mbrtu.c...
+compiling mbcrc.c...
+compiling mbascii.c...
+compiling mbfunccoils.c...
+compiling mbfuncdisc.c...
+compiling mbfuncholding.c...
+compiling mbfuncinput.c...
+compiling mbfuncother.c...
+compiling mbutils.c...
+compiling btfunc.c...
+compiling mbtcp.c...
+compiling mb.c...
+..\freemodbus-v1.6.0\modbus\mb.c(65): warning:  #550-D: variable "eMBCurrentMode" was set but never used
+..\freemodbus-v1.6.0\modbus\mb.c:   static eMBMode  eMBCurrentMode;
+..\freemodbus-v1.6.0\modbus\mb.c:                   ^
+..\freemodbus-v1.6.0\modbus\mb.c: ..\freemodbus-v1.6.0\modbus\mb.c: 1 warning, 0 errors
+linking...
+Program Size: Code=17676 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 10 Warning(s).
+Build target 'ADE7878'
+compiling main.c...
+..\app\src\main.c(123): warning:  #111-D: statement is unreachable
+..\app\src\main.c:     SysTem_entry();
+..\app\src\main.c:     ^
+..\app\src\main.c(102): warning:  #177-D: variable "ucSlaveID" was declared but never referenced
+..\app\src\main.c:   const UCHAR  ucSlaveID[] = { 0xAA, 0xBB, 0xCC };
+..\app\src\main.c:                ^
+..\app\src\main.c(103): warning:  #550-D: variable "eStatus" was set but never used
+..\app\src\main.c:   eMBErrorCode    eStatus;
+..\app\src\main.c:                   ^
+..\app\src\main.c: ..\app\src\main.c: 3 warnings, 0 errors
+compiling port.c...
+compiling portevent.c...
+compiling portserial.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\portserial.c(156): warning:  #177-D: variable "u" was declared but never referenced
+..\freemodbus-v1.6.0\port\portserial.c:         char u;
+..\freemodbus-v1.6.0\port\portserial.c:              ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 3 warnings, 0 errors
+compiling porttimer.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\porttimer.c(37): warning:  #177-D: variable "PrescalerValue" was declared but never referenced
+..\freemodbus-v1.6.0\port\porttimer.c:          uint16_t PrescalerValue = 0;
+..\freemodbus-v1.6.0\port\porttimer.c:                   ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 3 warnings, 0 errors
+compiling user_mb_app.c...
+compiling mbrtu.c...
+compiling mbcrc.c...
+compiling mbascii.c...
+compiling mbfunccoils.c...
+compiling mbfuncdisc.c...
+compiling mbfuncholding.c...
+compiling mbfuncinput.c...
+compiling mbfuncother.c...
+compiling mbutils.c...
+compiling btfunc.c...
+compiling mbtcp.c...
+compiling mb.c...
+..\freemodbus-v1.6.0\modbus\mb.c(65): warning:  #550-D: variable "eMBCurrentMode" was set but never used
+..\freemodbus-v1.6.0\modbus\mb.c:   static eMBMode  eMBCurrentMode;
+..\freemodbus-v1.6.0\modbus\mb.c:                   ^
+..\freemodbus-v1.6.0\modbus\mb.c: ..\freemodbus-v1.6.0\modbus\mb.c: 1 warning, 0 errors
+linking...
+Program Size: Code=15864 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 10 Warning(s).
+Build target 'ADE7878'
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(434): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #endif
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:         ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 1 warning, 0 errors
+compiling btfunc.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 2 warnings, 0 errors
+compiling mb.c...
+..\freemodbus-v1.6.0\modbus\mb.c(65): warning:  #550-D: variable "eMBCurrentMode" was set but never used
+..\freemodbus-v1.6.0\modbus\mb.c:   static eMBMode  eMBCurrentMode;
+..\freemodbus-v1.6.0\modbus\mb.c:                   ^
+..\freemodbus-v1.6.0\modbus\mb.c: ..\freemodbus-v1.6.0\modbus\mb.c: 1 warning, 0 errors
+linking...
+Program Size: Code=15864 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 4 Warning(s).
+Build target 'ADE7878'
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(432): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #endif
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:         ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 1 warning, 0 errors
+linking...
+Program Size: Code=15864 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 1 Warning(s).
+Build target 'ADE7878'
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(432): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #endif
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:         ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 1 warning, 0 errors
+linking...
+Program Size: Code=15864 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 1 Warning(s).
+Build target 'ADE7878'
+compiling main.c...
+..\app\src\main.c(123): warning:  #111-D: statement is unreachable
+..\app\src\main.c:     SysTem_entry();
+..\app\src\main.c:     ^
+..\app\src\main.c(102): warning:  #177-D: variable "ucSlaveID" was declared but never referenced
+..\app\src\main.c:   const UCHAR  ucSlaveID[] = { 0xAA, 0xBB, 0xCC };
+..\app\src\main.c:                ^
+..\app\src\main.c(103): warning:  #550-D: variable "eStatus" was set but never used
+..\app\src\main.c:   eMBErrorCode    eStatus;
+..\app\src\main.c:                   ^
+..\app\src\main.c: ..\app\src\main.c: 3 warnings, 0 errors
+compiling port.c...
+compiling portevent.c...
+compiling portserial.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\portserial.c(156): warning:  #177-D: variable "u" was declared but never referenced
+..\freemodbus-v1.6.0\port\portserial.c:         char u;
+..\freemodbus-v1.6.0\port\portserial.c:              ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 3 warnings, 0 errors
+compiling porttimer.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\porttimer.c(37): warning:  #177-D: variable "PrescalerValue" was declared but never referenced
+..\freemodbus-v1.6.0\port\porttimer.c:          uint16_t PrescalerValue = 0;
+..\freemodbus-v1.6.0\port\porttimer.c:                   ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 3 warnings, 0 errors
+compiling user_mb_app.c...
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(202): error:  #127: expected a statement
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       else
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(207): warning:  #12-D: parsing restarts here after previous syntax error
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       EXIT_CRITICAL_SECTION(  );
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                                ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(398): error:  #247: function "eMBRTUSend" has already been defined
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   eMBRTUSend( UCHAR ucSlaveAddress, const UCHAR * pucFrame, USHORT usLength )
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(412): error:  #167: argument of type "UCHAR" is incompatible with parameter of type "void *restrict"
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                 memcpy(pucSndBufferCur[43],pucFrame,usLength);//copy uplayr appliction  data to will sent buf
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                        ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(432): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #endif
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:         ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 2 warnings, 3 errors
+compiling mbcrc.c...
+compiling mbascii.c...
+compiling mbfunccoils.c...
+compiling mbfuncdisc.c...
+compiling mbfuncholding.c...
+compiling mbfuncinput.c...
+compiling mbfuncother.c...
+compiling mbutils.c...
+compiling btfunc.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(44): warning:  #177-D: variable "usRegAddress" was declared but never referenced
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:       USHORT          usRegAddress;
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                       ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 3 warnings, 0 errors
+compiling mbtcp.c...
+compiling mb.c...
+..\freemodbus-v1.6.0\modbus\mb.c(425): warning:  #223-D: function "peBTFrameSendCur" declared implicitly
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                       ^
+..\freemodbus-v1.6.0\modbus\mb.c(425): warning:  #188-D: enumerated type mixed with another type
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                     ^
+..\freemodbus-v1.6.0\modbus\mb.c(65): warning:  #550-D: variable "eMBCurrentMode" was set but never used
+..\freemodbus-v1.6.0\modbus\mb.c:   static eMBMode  eMBCurrentMode;
+..\freemodbus-v1.6.0\modbus\mb.c:                   ^
+..\freemodbus-v1.6.0\modbus\mb.c: ..\freemodbus-v1.6.0\modbus\mb.c: 3 warnings, 0 errors
+Target not created
+Build target 'ADE7878'
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(202): error:  #127: expected a statement
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       else
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(207): warning:  #12-D: parsing restarts here after previous syntax error
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       EXIT_CRITICAL_SECTION(  );
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                                ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(398): error:  #247: function "eMBRTUSend" has already been defined
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   eMBRTUSend( UCHAR ucSlaveAddress, const UCHAR * pucFrame, USHORT usLength )
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(412): error:  #167: argument of type "UCHAR" is incompatible with parameter of type "void *restrict"
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                 memcpy(pucSndBufferCur[43],pucFrame,usLength);//copy uplayr appliction  data to will sent buf
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                        ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(432): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #endif
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:         ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 2 warnings, 3 errors
+Target not created
+Build target 'ADE7878'
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(202): error:  #127: expected a statement
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       else
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(207): warning:  #12-D: parsing restarts here after previous syntax error
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       EXIT_CRITICAL_SECTION(  );
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                                ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(412): error:  #167: argument of type "UCHAR" is incompatible with parameter of type "void *restrict"
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                 memcpy(pucSndBufferCur[43],pucFrame,usLength);//copy uplayr appliction  data to will sent buf
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                        ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(432): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #endif
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:         ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 2 warnings, 2 errors
+Target not created
+Build target 'ADE7878'
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(202): error:  #127: expected a statement
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       else
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(207): warning:  #12-D: parsing restarts here after previous syntax error
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       EXIT_CRITICAL_SECTION(  );
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                                ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(412): warning:  #167-D: argument of type "volatile UCHAR *" is incompatible with parameter of type "void *restrict"
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                 memcpy((pucSndBufferCur+3),pucFrame,usLength);//copy uplayr appliction  data to will sent buf
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                        ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(432): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #endif
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:         ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 3 warnings, 1 error
+Target not created
+Build target 'ADE7878'
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(202): error:  #127: expected a statement
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       else
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(207): warning:  #12-D: parsing restarts here after previous syntax error
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       EXIT_CRITICAL_SECTION(  );
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                                ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(412): warning:  #167-D: argument of type "volatile UCHAR *" is incompatible with parameter of type "void *restrict"
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                 memcpy((pucSndBufferCur+3),pucFrame,usLength);//copy uplayr appliction  data to will sent buf
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                        ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(432): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #endif
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:         ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 3 warnings, 1 error
+Target not created
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(202): error:  #127: expected a statement
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       else
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(207): warning:  #12-D: parsing restarts here after previous syntax error
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       EXIT_CRITICAL_SECTION(  );
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                                ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(432): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #endif
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:         ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 2 warnings, 1 error
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c - 1 Error(s), 2 Warning(s).
+Build target 'ADE7878'
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(202): error:  #127: expected a statement
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       else
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(207): warning:  #12-D: parsing restarts here after previous syntax error
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       EXIT_CRITICAL_SECTION(  );
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                                ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(432): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #endif
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:         ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 2 warnings, 1 error
+Target not created
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(200): error:  #127: expected a statement
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       else
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(205): warning:  #12-D: parsing restarts here after previous syntax error
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       EXIT_CRITICAL_SECTION(  );
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                                ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(430): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #endif
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:         ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 2 warnings, 1 error
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c - 1 Error(s), 2 Warning(s).
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(201): error:  #127: expected a statement
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       else
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(206): warning:  #12-D: parsing restarts here after previous syntax error
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:       EXIT_CRITICAL_SECTION(  );
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:                                ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(431): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #endif
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:         ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 2 warnings, 1 error
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c - 1 Error(s), 2 Warning(s).
+compiling mbrtu.c...
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c(432): warning:  #1-D: last line of file ends without a newline
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:   #endif
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c:         ^
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: ..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c: 1 warning, 0 errors
+..\freemodbus-v1.6.0\modbus\rtu\mbrtu.c - 0 Error(s), 1 Warning(s).
+Build target 'ADE7878'
+compiling mbrtu.c...
+linking...
+Program Size: Code=16352 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 0 Warning(s).
+Build target 'ADE7878'
+linking...
+Program Size: Code=16352 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 0 Warning(s).
+Build target 'ADE7878'
+linking...
+Program Size: Code=16352 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\王均伟\\电能\\ADE7878_NUC422_Softwave\\SDK\\obj\\ADE7878.AXF" 
+Build target 'ADE7878'
+compiling btfunc.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(44): warning:  #177-D: variable "usRegAddress" was declared but never referenced
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:       USHORT          usRegAddress;
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                       ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\王均伟\\电能\\ADE7878_NUC422_Softwave\\SDK\\obj\\ADE7878.AXF" 
+Build target 'ADE7878'
+compiling btfunc.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(44): warning:  #177-D: variable "usRegAddress" was declared but never referenced
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:       USHORT          usRegAddress;
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                       ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\王均伟\\电能\\ADE7878_NUC422_Softwave\\SDK\\obj\\ADE7878.AXF" 
+Build target 'ADE7878'
+compiling main.c...
+..\app\src\main.c(123): warning:  #111-D: statement is unreachable
+..\app\src\main.c:     SysTem_entry();
+..\app\src\main.c:     ^
+..\app\src\main.c(102): warning:  #177-D: variable "ucSlaveID" was declared but never referenced
+..\app\src\main.c:   const UCHAR  ucSlaveID[] = { 0xAA, 0xBB, 0xCC };
+..\app\src\main.c:                ^
+..\app\src\main.c(103): warning:  #550-D: variable "eStatus" was set but never used
+..\app\src\main.c:   eMBErrorCode    eStatus;
+..\app\src\main.c:                   ^
+..\app\src\main.c: ..\app\src\main.c: 3 warnings, 0 errors
+compiling portevent.c...
+compiling portserial.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\portserial.c(156): warning:  #177-D: variable "u" was declared but never referenced
+..\freemodbus-v1.6.0\port\portserial.c:         char u;
+..\freemodbus-v1.6.0\port\portserial.c:              ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 3 warnings, 0 errors
+compiling porttimer.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\porttimer.c(37): warning:  #177-D: variable "PrescalerValue" was declared but never referenced
+..\freemodbus-v1.6.0\port\porttimer.c:          uint16_t PrescalerValue = 0;
+..\freemodbus-v1.6.0\port\porttimer.c:                   ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 3 warnings, 0 errors
+compiling user_mb_app.c...
+compiling mbrtu.c...
+compiling mbascii.c...
+compiling mbfunccoils.c...
+compiling mbfuncdisc.c...
+compiling mbfuncholding.c...
+compiling mbfuncinput.c...
+compiling mbfuncother.c...
+compiling mbutils.c...
+compiling btfunc.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(44): warning:  #177-D: variable "usRegAddress" was declared but never referenced
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:       USHORT          usRegAddress;
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                       ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 3 warnings, 0 errors
+compiling mbtcp.c...
+compiling mb.c...
+..\freemodbus-v1.6.0\modbus\mb.c(425): warning:  #223-D: function "peBTFrameSendCur" declared implicitly
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                       ^
+..\freemodbus-v1.6.0\modbus\mb.c(425): warning:  #188-D: enumerated type mixed with another type
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                     ^
+..\freemodbus-v1.6.0\modbus\mb.c(65): warning:  #550-D: variable "eMBCurrentMode" was set but never used
+..\freemodbus-v1.6.0\modbus\mb.c:   static eMBMode  eMBCurrentMode;
+..\freemodbus-v1.6.0\modbus\mb.c:                   ^
+..\freemodbus-v1.6.0\modbus\mb.c: ..\freemodbus-v1.6.0\modbus\mb.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 15 Warning(s).
+Load "D:\\王均伟\\电能\\ADE7878_NUC422_Softwave\\SDK\\obj\\ADE7878.AXF" 
+Build target 'ADE7878'
+compiling btfunc.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(44): warning:  #177-D: variable "usRegAddress" was declared but never referenced
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:       USHORT          usRegAddress;
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                       ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\王均伟\\电能\\ADE7878_NUC422_Softwave\\SDK\\obj\\ADE7878.AXF" 
+Build target 'ADE7878'
+compiling main.c...
+..\app\src\main.c(123): warning:  #111-D: statement is unreachable
+..\app\src\main.c:     SysTem_entry();
+..\app\src\main.c:     ^
+..\app\src\main.c(102): warning:  #177-D: variable "ucSlaveID" was declared but never referenced
+..\app\src\main.c:   const UCHAR  ucSlaveID[] = { 0xAA, 0xBB, 0xCC };
+..\app\src\main.c:                ^
+..\app\src\main.c(103): warning:  #550-D: variable "eStatus" was set but never used
+..\app\src\main.c:   eMBErrorCode    eStatus;
+..\app\src\main.c:                   ^
+..\app\src\main.c: ..\app\src\main.c: 3 warnings, 0 errors
+compiling port.c...
+compiling portevent.c...
+compiling portserial.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\portserial.c(156): warning:  #177-D: variable "u" was declared but never referenced
+..\freemodbus-v1.6.0\port\portserial.c:         char u;
+..\freemodbus-v1.6.0\port\portserial.c:              ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 3 warnings, 0 errors
+compiling porttimer.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\porttimer.c(37): warning:  #177-D: variable "PrescalerValue" was declared but never referenced
+..\freemodbus-v1.6.0\port\porttimer.c:          uint16_t PrescalerValue = 0;
+..\freemodbus-v1.6.0\port\porttimer.c:                   ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 3 warnings, 0 errors
+compiling user_mb_app.c...
+compiling mbrtu.c...
+compiling mbcrc.c...
+compiling mbascii.c...
+compiling mbfunccoils.c...
+compiling mbfuncdisc.c...
+compiling mbfuncholding.c...
+compiling mbfuncinput.c...
+compiling mbfuncother.c...
+compiling mbutils.c...
+compiling btfunc.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(44): warning:  #177-D: variable "usRegAddress" was declared but never referenced
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:       USHORT          usRegAddress;
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                       ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 3 warnings, 0 errors
+compiling mbtcp.c...
+compiling mb.c...
+..\freemodbus-v1.6.0\modbus\mb.c(425): warning:  #223-D: function "peBTFrameSendCur" declared implicitly
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                       ^
+..\freemodbus-v1.6.0\modbus\mb.c(425): warning:  #188-D: enumerated type mixed with another type
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                     ^
+..\freemodbus-v1.6.0\modbus\mb.c(65): warning:  #550-D: variable "eMBCurrentMode" was set but never used
+..\freemodbus-v1.6.0\modbus\mb.c:   static eMBMode  eMBCurrentMode;
+..\freemodbus-v1.6.0\modbus\mb.c:                   ^
+..\freemodbus-v1.6.0\modbus\mb.c: ..\freemodbus-v1.6.0\modbus\mb.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 15 Warning(s).
+Build target 'ADE7878'
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 0 Warning(s).
+Build target 'ADE7878'
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 0 Warning(s).
+Build target 'ADE7878'
+compiling main.c...
+..\app\src\main.c(123): warning:  #111-D: statement is unreachable
+..\app\src\main.c:     SysTem_entry();
+..\app\src\main.c:     ^
+..\app\src\main.c(102): warning:  #177-D: variable "ucSlaveID" was declared but never referenced
+..\app\src\main.c:   const UCHAR  ucSlaveID[] = { 0xAA, 0xBB, 0xCC };
+..\app\src\main.c:                ^
+..\app\src\main.c(103): warning:  #550-D: variable "eStatus" was set but never used
+..\app\src\main.c:   eMBErrorCode    eStatus;
+..\app\src\main.c:                   ^
+..\app\src\main.c: ..\app\src\main.c: 3 warnings, 0 errors
+compiling port.c...
+compiling portevent.c...
+compiling portserial.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\portserial.c(156): warning:  #177-D: variable "u" was declared but never referenced
+..\freemodbus-v1.6.0\port\portserial.c:         char u;
+..\freemodbus-v1.6.0\port\portserial.c:              ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 3 warnings, 0 errors
+compiling porttimer.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\porttimer.c(37): warning:  #177-D: variable "PrescalerValue" was declared but never referenced
+..\freemodbus-v1.6.0\port\porttimer.c:          uint16_t PrescalerValue = 0;
+..\freemodbus-v1.6.0\port\porttimer.c:                   ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 3 warnings, 0 errors
+compiling user_mb_app.c...
+compiling mbrtu.c...
+compiling mbcrc.c...
+compiling mbascii.c...
+compiling mbfunccoils.c...
+compiling mbfuncdisc.c...
+compiling mbfuncholding.c...
+compiling mbfuncinput.c...
+compiling mbfuncother.c...
+compiling mbutils.c...
+compiling btfunc.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(44): warning:  #177-D: variable "usRegAddress" was declared but never referenced
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:       USHORT          usRegAddress;
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                       ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 3 warnings, 0 errors
+compiling mbtcp.c...
+compiling mb.c...
+..\freemodbus-v1.6.0\modbus\mb.c(425): warning:  #223-D: function "peBTFrameSendCur" declared implicitly
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                       ^
+..\freemodbus-v1.6.0\modbus\mb.c(425): warning:  #188-D: enumerated type mixed with another type
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                     ^
+..\freemodbus-v1.6.0\modbus\mb.c(65): warning:  #550-D: variable "eMBCurrentMode" was set but never used
+..\freemodbus-v1.6.0\modbus\mb.c:   static eMBMode  eMBCurrentMode;
+..\freemodbus-v1.6.0\modbus\mb.c:                   ^
+..\freemodbus-v1.6.0\modbus\mb.c: ..\freemodbus-v1.6.0\modbus\mb.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 15 Warning(s).
+Build target 'ADE7878'
+compiling main.c...
+..\app\src\main.c(123): warning:  #111-D: statement is unreachable
+..\app\src\main.c:     SysTem_entry();
+..\app\src\main.c:     ^
+..\app\src\main.c(102): warning:  #177-D: variable "ucSlaveID" was declared but never referenced
+..\app\src\main.c:   const UCHAR  ucSlaveID[] = { 0xAA, 0xBB, 0xCC };
+..\app\src\main.c:                ^
+..\app\src\main.c(103): warning:  #550-D: variable "eStatus" was set but never used
+..\app\src\main.c:   eMBErrorCode    eStatus;
+..\app\src\main.c:                   ^
+..\app\src\main.c: ..\app\src\main.c: 3 warnings, 0 errors
+compiling port.c...
+compiling portevent.c...
+compiling portserial.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\portserial.c(156): warning:  #177-D: variable "u" was declared but never referenced
+..\freemodbus-v1.6.0\port\portserial.c:         char u;
+..\freemodbus-v1.6.0\port\portserial.c:              ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 3 warnings, 0 errors
+compiling porttimer.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\porttimer.c(37): warning:  #177-D: variable "PrescalerValue" was declared but never referenced
+..\freemodbus-v1.6.0\port\porttimer.c:          uint16_t PrescalerValue = 0;
+..\freemodbus-v1.6.0\port\porttimer.c:                   ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 3 warnings, 0 errors
+compiling user_mb_app.c...
+compiling mbrtu.c...
+compiling mbcrc.c...
+compiling mbascii.c...
+compiling mbfunccoils.c...
+compiling mbfuncdisc.c...
+compiling mbfuncholding.c...
+compiling mbfuncinput.c...
+compiling mbfuncother.c...
+compiling mbutils.c...
+compiling btfunc.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(44): warning:  #177-D: variable "usRegAddress" was declared but never referenced
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:       USHORT          usRegAddress;
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                       ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 3 warnings, 0 errors
+compiling mbtcp.c...
+compiling mb.c...
+..\freemodbus-v1.6.0\modbus\mb.c(425): warning:  #223-D: function "peBTFrameSendCur" declared implicitly
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                       ^
+..\freemodbus-v1.6.0\modbus\mb.c(425): warning:  #188-D: enumerated type mixed with another type
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                     ^
+..\freemodbus-v1.6.0\modbus\mb.c(65): warning:  #550-D: variable "eMBCurrentMode" was set but never used
+..\freemodbus-v1.6.0\modbus\mb.c:   static eMBMode  eMBCurrentMode;
+..\freemodbus-v1.6.0\modbus\mb.c:                   ^
+..\freemodbus-v1.6.0\modbus\mb.c: ..\freemodbus-v1.6.0\modbus\mb.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 15 Warning(s).
+Build target 'ADE7878'
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 0 Warning(s).
+Build target 'ADE7878'
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 0 Warning(s).
+Build target 'ADE7878'
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 0 Warning(s).
+Build target 'ADE7878'
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 0 Warning(s).
+Build target 'ADE7878'
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 0 Warning(s).
+Build target 'ADE7878'
+compiling main.c...
+..\app\src\main.c(123): warning:  #111-D: statement is unreachable
+..\app\src\main.c:     SysTem_entry();
+..\app\src\main.c:     ^
+..\app\src\main.c(102): warning:  #177-D: variable "ucSlaveID" was declared but never referenced
+..\app\src\main.c:   const UCHAR  ucSlaveID[] = { 0xAA, 0xBB, 0xCC };
+..\app\src\main.c:                ^
+..\app\src\main.c(103): warning:  #550-D: variable "eStatus" was set but never used
+..\app\src\main.c:   eMBErrorCode    eStatus;
+..\app\src\main.c:                   ^
+..\app\src\main.c: ..\app\src\main.c: 3 warnings, 0 errors
+compiling Usart.c...
+compiling Config.c...
+compiling ds12864.c...
+..\DS12864\ds12864.c(339): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\DS12864\ds12864.c:      print(VRMS_ds12864); 
+..\DS12864\ds12864.c:            ^
+..\DS12864\ds12864.c(341): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\DS12864\ds12864.c:      print(IRMS_ds12864); 
+..\DS12864\ds12864.c:            ^
+..\DS12864\ds12864.c(343): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\DS12864\ds12864.c:      print(WATT_ds12864);
+..\DS12864\ds12864.c:            ^
+..\DS12864\ds12864.c(345): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+..\DS12864\ds12864.c:      print(WATTHR_ds12864);
+..\DS12864\ds12864.c:            ^
+..\DS12864\ds12864.c(389): warning:  #1-D: last line of file ends without a newline
+..\DS12864\ds12864.c:           
+..\DS12864\ds12864.c:           ^
+..\DS12864\ds12864.c: ..\DS12864\ds12864.c: 5 warnings, 0 errors
+compiling systimer.c...
+compiling acmp.c...
+compiling adc.c...
+compiling can.c...
+compiling cap.c...
+compiling clk.c...
+compiling crypto.c...
+compiling ebi.c...
+compiling emac.c...
+compiling fmc.c...
+compiling gpio.c...
+compiling i2c.c...
+compiling i2s.c...
+compiling pdma.c...
+compiling ps2.c...
+compiling pwm.c...
+compiling retarget.c...
+compiling rtc.c...
+compiling sc.c...
+compiling scuart.c...
+compiling sd.c...
+compiling spi.c...
+compiling sys.c...
+compiling timer.c...
+compiling uart.c...
+compiling usbd.c...
+compiling wdt.c...
+compiling wwdt.c...
+compiling system_NUC472_442.c...
+..\CMIS\Source\system_NUC472_442.c(73): warning:  #111-D: statement is unreachable
+..\CMIS\Source\system_NUC472_442.c:       CLK_WaitClockReady(CLK_STATUS_LIRCSTB_Msk);
+..\CMIS\Source\system_NUC472_442.c:       ^
+..\CMIS\Source\system_NUC472_442.c: ..\CMIS\Source\system_NUC472_442.c: 1 warning, 0 errors
+assembling startup_NUC472_442.s...
+compiling ADE7878_SPI.c...
+compiling ADE7878.c...
+compiling ADE7878_Int.c...
+compiling AD7878_Measure.c...
+..\ADE7878\src\AD7878_Measure.c(55): warning:  #940-D: missing return statement at end of non-void function "ADE7878_main"
+..\ADE7878\src\AD7878_Measure.c:   }
+..\ADE7878\src\AD7878_Measure.c:   ^
+..\ADE7878\src\AD7878_Measure.c(103): warning:  #177-D: variable "l1" was declared but never referenced
+..\ADE7878\src\AD7878_Measure.c:                            uint16_t l1,l2,l3;
+..\ADE7878\src\AD7878_Measure.c:                                     ^
+..\ADE7878\src\AD7878_Measure.c(103): warning:  #550-D: variable "l2" was set but never used
+..\ADE7878\src\AD7878_Measure.c:                            uint16_t l1,l2,l3;
+..\ADE7878\src\AD7878_Measure.c:                                        ^
+..\ADE7878\src\AD7878_Measure.c(103): warning:  #177-D: variable "l3" was declared but never referenced
+..\ADE7878\src\AD7878_Measure.c:                            uint16_t l1,l2,l3;
+..\ADE7878\src\AD7878_Measure.c:                                           ^
+..\ADE7878\src\AD7878_Measure.c(146): warning:  #1-D: last line of file ends without a newline
+..\ADE7878\src\AD7878_Measure.c:    }
+..\ADE7878\src\AD7878_Measure.c:     ^
+..\ADE7878\src\AD7878_Measure.c(60): warning:  #177-D: variable "sfIrms" was declared but never referenced
+..\ADE7878\src\AD7878_Measure.c:           char sfIrms[20];
+..\ADE7878\src\AD7878_Measure.c:                ^
+..\ADE7878\src\AD7878_Measure.c(62): warning:  #177-D: variable "sfWatt" was declared but never referenced
+..\ADE7878\src\AD7878_Measure.c:           char sfWatt[20];
+..\ADE7878\src\AD7878_Measure.c:                ^
+..\ADE7878\src\AD7878_Measure.c(63): warning:  #177-D: variable "i" was declared but never referenced
+..\ADE7878\src\AD7878_Measure.c:           static char f,i;
+..\ADE7878\src\AD7878_Measure.c:                         ^
+..\ADE7878\src\AD7878_Measure.c(64): warning:  #177-D: variable "p" was declared but never referenced
+..\ADE7878\src\AD7878_Measure.c:           char*p;
+..\ADE7878\src\AD7878_Measure.c:                ^
+..\ADE7878\src\AD7878_Measure.c(65): warning:  #177-D: variable "HZ" was declared but never referenced
+..\ADE7878\src\AD7878_Measure.c:           char HZ;
+..\ADE7878\src\AD7878_Measure.c:                ^
+..\ADE7878\src\AD7878_Measure.c: ..\ADE7878\src\AD7878_Measure.c: 10 warnings, 0 errors
+compiling port.c...
+compiling portevent.c...
+compiling portserial.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\portserial.c(156): warning:  #177-D: variable "u" was declared but never referenced
+..\freemodbus-v1.6.0\port\portserial.c:         char u;
+..\freemodbus-v1.6.0\port\portserial.c:              ^
+..\freemodbus-v1.6.0\port\portserial.c: ..\freemodbus-v1.6.0\port\portserial.c: 3 warnings, 0 errors
+compiling porttimer.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\port\porttimer.c(37): warning:  #177-D: variable "PrescalerValue" was declared but never referenced
+..\freemodbus-v1.6.0\port\porttimer.c:          uint16_t PrescalerValue = 0;
+..\freemodbus-v1.6.0\port\porttimer.c:                   ^
+..\freemodbus-v1.6.0\port\porttimer.c: ..\freemodbus-v1.6.0\port\porttimer.c: 3 warnings, 0 errors
+compiling user_mb_app.c...
+compiling mbrtu.c...
+compiling mbcrc.c...
+compiling mbascii.c...
+compiling mbfunccoils.c...
+compiling mbfuncdiag.c...
+compiling mbfuncdisc.c...
+compiling mbfuncholding.c...
+compiling mbfuncinput.c...
+compiling mbfuncother.c...
+compiling mbutils.c...
+compiling btfunc.c...
+..\CMIS\Include\NUC472_442.h(32712): warning:  #47-D: incompatible redefinition of macro "TRUE" (declared at line 61 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define TRUE           (1)      ///< Boolean true, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\CMIS\Include\NUC472_442.h(32713): warning:  #47-D: incompatible redefinition of macro "FALSE" (declared at line 65 of "..\freemodbus-v1.6.0\port\port.h")
+..\CMIS\Include\NUC472_442.h:   #define FALSE          (0)      ///< Boolean false, define to use in API parameters or return value
+..\CMIS\Include\NUC472_442.h:           ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c(44): warning:  #177-D: variable "usRegAddress" was declared but never referenced
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:       USHORT          usRegAddress;
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c:                       ^
+..\freemodbus-v1.6.0\modbus\functions\btfunc.c: ..\freemodbus-v1.6.0\modbus\functions\btfunc.c: 3 warnings, 0 errors
+compiling mbtcp.c...
+compiling mb.c...
+..\freemodbus-v1.6.0\modbus\mb.c(425): warning:  #223-D: function "peBTFrameSendCur" declared implicitly
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                       ^
+..\freemodbus-v1.6.0\modbus\mb.c(425): warning:  #188-D: enumerated type mixed with another type
+..\freemodbus-v1.6.0\modbus\mb.c:             eStatus = peBTFrameSendCur( ucMBAddress, ucMBFrame, usLength ); 
+..\freemodbus-v1.6.0\modbus\mb.c:                     ^
+..\freemodbus-v1.6.0\modbus\mb.c(65): warning:  #550-D: variable "eMBCurrentMode" was set but never used
+..\freemodbus-v1.6.0\modbus\mb.c:   static eMBMode  eMBCurrentMode;
+..\freemodbus-v1.6.0\modbus\mb.c:                   ^
+..\freemodbus-v1.6.0\modbus\mb.c: ..\freemodbus-v1.6.0\modbus\mb.c: 3 warnings, 0 errors
+compiling eefs_fileapi.c...
+..\eefs\libraries\eepromfs\eefs_fileapi.c(94): warning:  #223-D: function "Read_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:           EEFS_LIB_EEPROM_READ(&FileAllocationTableHeader, &FileAllocationTable->Header, sizeof(EEFS_FileAllocationTableHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:           ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(250): warning:  #223-D: function "Read_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:               EEFS_LIB_EEPROM_READ(&FileHeader, InodeTable->File[InodeIndex].FileHeaderPointer, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:               ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(353): warning:  #223-D: function "Write_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                               EEFS_LIB_EEPROM_WRITE(InodeTable->File[InodeIndex].FileHeaderPointer, &FileHeader, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                               ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(433): warning:  #223-D: function "Read_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:               EEFS_LIB_EEPROM_READ(&FileHeader, EEFS_FileDescriptorTable[FileDescriptor].FileHeaderPointer, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:               ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(436): warning:  #223-D: function "Write_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:               EEFS_LIB_EEPROM_WRITE(EEFS_FileDescriptorTable[FileDescriptor].FileHeaderPointer, &FileHeader, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:               ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(459): warning:  #223-D: function "Read_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:               EEFS_LIB_EEPROM_READ(&FileHeader, EEFS_FileDescriptorTable[FileDescriptor].FileHeaderPointer, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:               ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(463): warning:  #223-D: function "Write_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:               EEFS_LIB_EEPROM_WRITE(EEFS_FileDescriptorTable[FileDescriptor].FileHeaderPointer, &FileHeader, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:               ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(494): warning:  #223-D: function "Read_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                   EEFS_LIB_EEPROM_READ(Buffer, EEFS_FileDescriptorTable[FileDescriptor].FileDataPointer, BytesToRead);
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                   ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(531): warning:  #223-D: function "Write_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                   EEFS_LIB_EEPROM_WRITE((void *)EEFS_FileDescriptorTable[FileDescriptor].FileDataPointer, Buffer, BytesToWrite);
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                   ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(654): warning:  #223-D: function "Read_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                       EEFS_LIB_EEPROM_READ(&FileHeader, InodeTable->File[InodeIndex].FileHeaderPointer, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                       ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(661): warning:  #223-D: function "Write_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                               EEFS_LIB_EEPROM_WRITE(InodeTable->File[InodeIndex].FileHeaderPointer, &FileHeader, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                               ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(716): warning:  #223-D: function "Read_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                           EEFS_LIB_EEPROM_READ(&FileHeader, InodeTable->File[InodeIndex].FileHeaderPointer, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                           ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(720): warning:  #223-D: function "Write_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                               EEFS_LIB_EEPROM_WRITE(InodeTable->File[InodeIndex].FileHeaderPointer, &FileHeader, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                               ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(770): warning:  #223-D: function "Read_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                       EEFS_LIB_EEPROM_READ(&FileHeader, InodeTable->File[InodeIndex].FileHeaderPointer, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                       ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(813): warning:  #223-D: function "Read_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:               EEFS_LIB_EEPROM_READ(&FileHeader, EEFS_FileDescriptorTable[FileDescriptor].FileHeaderPointer, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:               ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(857): warning:  #223-D: function "Read_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                           EEFS_LIB_EEPROM_READ(&FileHeader, InodeTable->File[InodeIndex].FileHeaderPointer, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                           ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(859): warning:  #223-D: function "Write_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                           EEFS_LIB_EEPROM_WRITE(InodeTable->File[InodeIndex].FileHeaderPointer, &FileHeader, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:                           ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(931): warning:  #223-D: function "Read_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:               EEFS_LIB_EEPROM_READ(&FileHeader, DirectoryDescriptor->InodeTable->File[DirectoryDescriptor->InodeIndex].FileHeaderPointer, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:               ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(1050): warning:  #223-D: function "Read_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:           EEFS_LIB_EEPROM_READ(&FileHeader, InodeTable->File[i].FileHeaderPointer, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:           ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(1153): warning:  #223-D: function "Read_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:           EEFS_LIB_EEPROM_READ(&FileHeader, InodeTable->File[i].FileHeaderPointer, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:           ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c(1200): warning:  #223-D: function "Read_EEPROM" declared implicitly
+..\eefs\libraries\eepromfs\eefs_fileapi.c:              EEFS_LIB_EEPROM_READ(&FileHeader, EEFS_FileDescriptorTable[i].FileHeaderPointer, sizeof(EEFS_FileHeader_t));
+..\eefs\libraries\eepromfs\eefs_fileapi.c:              ^
+..\eefs\libraries\eepromfs\eefs_fileapi.c: ..\eefs\libraries\eepromfs\eefs_fileapi.c: 21 warnings, 0 errors
+compiling microeefs.c...
+..\eefs\libraries\microeefs\microeefs.c(44): warning:  #223-D: function "Read_EEPROM" declared implicitly
+..\eefs\libraries\microeefs\microeefs.c:           EEFS_LIB_EEPROM_READ(&FileAllocationTableHeader, (void *) BaseAddress, sizeof(EEFS_FileAllocationTableHeader_t));
+..\eefs\libraries\microeefs\microeefs.c:           ^
+..\eefs\libraries\microeefs\microeefs.c: ..\eefs\libraries\microeefs\microeefs.c: 1 warning, 0 errors
+compiling eefs_filesys.c...
+compiling eepromapp.c...
+..\eefs\eepromapp\eepromapp.c(133): warning:  #1-D: last line of file ends without a newline
+..\eefs\eepromapp\eepromapp.c:   }
+..\eefs\eepromapp\eepromapp.c:    ^
+..\eefs\eepromapp\eepromapp.c: ..\eefs\eepromapp\eepromapp.c: 1 warning, 0 errors
+compiling eeprom.c...
+..\eefs\eeprom\eeprom.c(53): warning:  #1-D: last line of file ends without a newline
+..\eefs\eeprom\eeprom.c:   }
+..\eefs\eeprom\eeprom.c:    ^
+..\eefs\eeprom\eeprom.c: ..\eefs\eeprom\eeprom.c: 1 warning, 0 errors
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 55 Warning(s).
+Build target 'ADE7878'
+linking...
+Program Size: Code=16360 RO-data=1240 RW-data=552 ZI-data=12696  
+FromELF: creating hex file...
+".\obj\ADE7878.axf" - 0 Error(s), 0 Warning(s).

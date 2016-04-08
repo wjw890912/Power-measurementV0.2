@@ -1,0 +1,11 @@
+.\obj\sys_lwip.o: ..\..\..\ThirdParty\lwip-1.4.1\src\core\sys_lwip.c
+.\obj\sys_lwip.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/opt.h
+.\obj\sys_lwip.o: ..\lwip-1.4.1\port\include\lwipopts.h
+.\obj\sys_lwip.o: ..\lwip-1.4.1\port\include\lwipopts.h
+.\obj\sys_lwip.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/debug.h
+.\obj\sys_lwip.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/arch.h
+.\obj\sys_lwip.o: ..\lwip-1.4.1\port\include\arch/cc.h
+.\obj\sys_lwip.o: ..\lwip-1.4.1\port\include\arch/cpu.h
+.\obj\sys_lwip.o: E:\Keil\ARM\RV31\INC\stdio.h
+.\obj\sys_lwip.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/opt.h
+.\obj\sys_lwip.o: ..\..\..\ThirdParty\lwip-1.4.1\src\include\lwip/sys.h

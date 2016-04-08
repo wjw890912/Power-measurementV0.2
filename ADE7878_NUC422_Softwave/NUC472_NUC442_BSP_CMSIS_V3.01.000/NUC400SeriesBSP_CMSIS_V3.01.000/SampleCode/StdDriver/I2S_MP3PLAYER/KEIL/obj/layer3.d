@@ -1,0 +1,16 @@
+.\obj\layer3.o: ..\..\..\..\ThirdParty\libmad\src\layer3.c
+.\obj\layer3.o: ..\..\..\..\ThirdParty\libmad\inc\mad.h
+.\obj\layer3.o: ..\..\..\..\ThirdParty\libmad\inc\decoder.h
+.\obj\layer3.o: ..\..\..\..\ThirdParty\libmad\inc\stream.h
+.\obj\layer3.o: ..\..\..\..\ThirdParty\libmad\inc\bit.h
+.\obj\layer3.o: ..\..\..\..\ThirdParty\libmad\inc\frame.h
+.\obj\layer3.o: ..\..\..\..\ThirdParty\libmad\inc\fixed.h
+.\obj\layer3.o: ..\..\..\..\ThirdParty\libmad\inc\mad_timer.h
+.\obj\layer3.o: ..\..\..\..\ThirdParty\libmad\inc\synth.h
+.\obj\layer3.o: ..\..\..\..\ThirdParty\libmad\inc\global.h
+.\obj\layer3.o: E:\Keil\ARM\RV31\INC\stdlib.h
+.\obj\layer3.o: E:\Keil\ARM\RV31\INC\string.h
+.\obj\layer3.o: ..\..\..\..\ThirdParty\libmad\inc\huffman.h
+.\obj\layer3.o: ..\..\..\..\ThirdParty\libmad\inc\layer3.h
+.\obj\layer3.o: ..\..\..\..\ThirdParty\libmad\inc\rq_table.dat
+.\obj\layer3.o: ..\..\..\..\ThirdParty\libmad\inc\imdct_s.dat
